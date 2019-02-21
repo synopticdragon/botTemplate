@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['makefee',['makeFee',['../class_k_1_1_gw.html#a379233bfc2ba83fd276d17dbe2e37009',1,'K::Gw']]],
+  ['market',['market',['../class_k_1_1_klass.html#a98dbde943a8c48f1f266b879e5409777',1,'K::Klass']]],
+  ['maxlevel',['maxLevel',['../class_k_1_1_gw.html#a8811afa719f86cb7ddde8770eb580fdc',1,'K::Gw']]],
+  ['mediumewmaperiods',['mediumEwmaPeriods',['../struct_k_1_1m_quoting_params.html#af0d97776d733257c7f697f39d80962d9',1,'K::mQuotingParams']]],
+  ['memory',['memory',['../class_k_1_1_klass.html#afe23c0cbde1ef3bc79fdd6e56f9c120a',1,'K::Klass']]],
+  ['mgewmap',['mgEwmaP',['../class_k_1_1_m_g.html#ae990143af8448b62f44b2b2d7787eebc',1,'K::MG']]],
+  ['mgewmatrenddiff',['mgEwmaTrendDiff',['../class_k_1_1_m_g.html#acd339134ddd47c67ddd7c3a8acdf7b3c',1,'K::MG']]],
+  ['mgewmaw',['mgEwmaW',['../class_k_1_1_m_g.html#ad9e670e4f0b6caf6a5a8d8ee23acf178',1,'K::MG']]],
+  ['mgstdevask',['mgStdevAsk',['../class_k_1_1_m_g.html#a30c5f31a2b624ae505d3b371286a283b',1,'K::MG']]],
+  ['mgstdevaskmean',['mgStdevAskMean',['../class_k_1_1_m_g.html#a573fe2cde6d4be29b8adb62d9c6df216',1,'K::MG']]],
+  ['mgstdevbid',['mgStdevBid',['../class_k_1_1_m_g.html#a3c10d311c08f2978192402d961cc32aa',1,'K::MG']]],
+  ['mgstdevbidmean',['mgStdevBidMean',['../class_k_1_1_m_g.html#a6eb5979883c311c60b4c02f8faa20185',1,'K::MG']]],
+  ['mgstdevfv',['mgStdevFV',['../class_k_1_1_m_g.html#a47f0036553b72247f6754ceddb5c113b',1,'K::MG']]],
+  ['mgstdevfvmean',['mgStdevFVMean',['../class_k_1_1_m_g.html#a020f609af7e4ab045b64ca49a8db4f44',1,'K::MG']]],
+  ['mgstdevtop',['mgStdevTop',['../class_k_1_1_m_g.html#ac4451d8294cb8944c256971e1acb775b',1,'K::MG']]],
+  ['mgstdevtopmean',['mgStdevTopMean',['../class_k_1_1_m_g.html#abf4a6e034d5cf8359ada9f8344b0f469',1,'K::MG']]],
+  ['minsize',['minSize',['../class_k_1_1_gw.html#a9814db79743d44d6def92893a4b43b84',1,'K::Gw']]],
+  ['mintick',['minTick',['../class_k_1_1_gw.html#a86d946748d0cea5c3fb3ab8ae81cf23a',1,'K::Gw']]],
+  ['mode',['mode',['../struct_k_1_1m_quoting_params.html#aba9219e91199409f90646b018b900dc6',1,'K::mQuotingParams']]]
+];

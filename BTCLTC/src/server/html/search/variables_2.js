@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['base',['base',['../struct_k_1_1m_pair.html#a88838a75375332fd734e38ba4d7d870c',1,'K::mPair::base()'],['../struct_k_1_1m_wallets.html#aa296cf3f15f714fd4d6d28a58fa2a86e',1,'K::mWallets::base()'],['../class_k_1_1_gw.html#a88838a75375332fd734e38ba4d7d870c',1,'K::Gw::base()']]],
+  ['baseamount',['baseAmount',['../struct_k_1_1m_position.html#a54ab63754ed59e0f7167d5b41d320e40',1,'K::mPosition']]],
+  ['baseheldamount',['baseHeldAmount',['../struct_k_1_1m_position.html#ac6175d7078a5d215338188838dba1800',1,'K::mPosition']]],
+  ['basevalue',['baseValue',['../struct_k_1_1m_profit.html#adbb3d8b288708abaf509a644671fb442',1,'K::mProfit::baseValue()'],['../struct_k_1_1m_position.html#adbb3d8b288708abaf509a644671fb442',1,'K::mPosition::baseValue()']]],
+  ['bblack',['BBLACK',['../namespace_k.html#a1b5ebfb775cf88920f1beb1b59c80137',1,'K']]],
+  ['bblue',['BBLUE',['../namespace_k.html#a2fcd49453f10ffd3ccb5aebe30f5d0c0',1,'K']]],
+  ['bcyan',['BCYAN',['../namespace_k.html#a2c3e50cb34db635087047ef75ab1ca52',1,'K']]],
+  ['bestwidth',['bestWidth',['../struct_k_1_1m_quoting_params.html#a7e744b13bec19c083103e7ae84845427',1,'K::mQuotingParams']]],
+  ['bgreen',['BGREEN',['../namespace_k.html#aa83d8d71c463813bdbd57fab20312b7d',1,'K']]],
+  ['bid',['bid',['../struct_k_1_1m_quote.html#a200a5195c910b871fbfdfd76fcedf05a',1,'K::mQuote']]],
+  ['bids',['bids',['../struct_k_1_1m_levels.html#ae01c62df8fdd345c0e9024d06ef863b4',1,'K::mLevels']]],
+  ['bidstatus',['bidStatus',['../struct_k_1_1m_quote_status.html#a32c042e88ff93f679a53d90d8c5f0f4a',1,'K::mQuoteStatus']]],
+  ['bpurple',['BPURPLE',['../namespace_k.html#adcaba86455bd5bd0cbdeac28c4fced2b',1,'K']]],
+  ['bred',['BRED',['../namespace_k.html#ae09107156acfd00c2e31f049f70b622a',1,'K']]],
+  ['broker',['broker',['../class_k_1_1_klass.html#a48fc03cfcc056aaefb1811e35942008f',1,'K::Klass']]],
+  ['bullets',['bullets',['../struct_k_1_1m_quoting_params.html#a66918388a988312b129d487b71d79136',1,'K::mQuotingParams']]],
+  ['buy',['buy',['../struct_k_1_1m_safety.html#a1afe90f27d7bdb4ff0f19e65657373bf',1,'K::mSafety']]],
+  ['buyping',['buyPing',['../struct_k_1_1m_safety.html#ae3a09b1f725944415947cb4d137a1db2',1,'K::mSafety']]],
+  ['buysize',['buySize',['../struct_k_1_1m_quoting_params.html#a78713a07cb23439e664a091f740fef1f',1,'K::mQuotingParams::buySize()'],['../struct_k_1_1m_safety.html#a78713a07cb23439e664a091f740fef1f',1,'K::mSafety::buySize()']]],
+  ['buysizemax',['buySizeMax',['../struct_k_1_1m_quoting_params.html#a9430749d47750fa7a3571e69aa421524',1,'K::mQuotingParams']]],
+  ['buysizepercentage',['buySizePercentage',['../struct_k_1_1m_quoting_params.html#aefdf7026d73172dbed3231b219385e4b',1,'K::mQuotingParams']]],
+  ['bwhite',['BWHITE',['../namespace_k.html#a723a80b3fad44765a8c6371fd4841609',1,'K']]],
+  ['byellow',['BYELLOW',['../namespace_k.html#aa522b04bcf50df65fd4819d0b46d6664',1,'K']]]
+];

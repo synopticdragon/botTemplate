@@ -1,0 +1,306 @@
+\hypertarget{class_k_1_1_m_g}{}\section{MG Class Reference}
+\label{class_k_1_1_m_g}\index{MG@{MG}}
+
+
+{\ttfamily \#include $<$mg.\+h$>$}
+
+
+
+Inheritance diagram for MG\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=121pt]{class_k_1_1_m_g__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for MG\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_k_1_1_m_g__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_k_1_1_m_g_a785796c4aff2e5bddf071efeb14a5f8a}{calc\+Stats} ()
+\item 
+void \hyperlink{class_k_1_1_m_g_a015722c233590fa0304b0459417dfc6b}{calc\+Fair\+Value} ()
+\item 
+void \hyperlink{class_k_1_1_m_g_aad02ad8dba997ebd2f1e03a94d7b8633}{calc\+Ewma\+History} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+function$<$ void()$>$ $\ast$ \hyperlink{class_k_1_1_m_g_a62d2cf6a8a40f2b9f3671e89416b09e1}{calc\+Quote} = nullptr
+\item 
+function$<$ void()$>$ $\ast$ \hyperlink{class_k_1_1_m_g_a427f330e901dc47bf84fd9fe98590924}{calc\+Target\+Base\+Pos} = nullptr
+\item 
+\hyperlink{struct_k_1_1m_levels}{m\+Levels} \hyperlink{class_k_1_1_m_g_a1ff20b3cba9c009511bea1c21952a5ee}{levels}
+\item 
+\hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price} \hyperlink{class_k_1_1_m_g_a68046d94c62e77cce36ea7de25b7927d}{fair\+Value} = 0
+\item 
+\hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price} \hyperlink{class_k_1_1_m_g_ae990143af8448b62f44b2b2d7787eebc}{mg\+EwmaP} = 0
+\item 
+\hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price} \hyperlink{class_k_1_1_m_g_ad9e670e4f0b6caf6a5a8d8ee23acf178}{mg\+EwmaW} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a413889c063d487f39908c7c777096aa1}{target\+Position} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_ac4451d8294cb8944c256971e1acb775b}{mg\+Stdev\+Top} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_abf4a6e034d5cf8359ada9f8344b0f469}{mg\+Stdev\+Top\+Mean} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a47f0036553b72247f6754ceddb5c113b}{mg\+Stdev\+FV} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a020f609af7e4ab045b64ca49a8db4f44}{mg\+Stdev\+F\+V\+Mean} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a3c10d311c08f2978192402d961cc32aa}{mg\+Stdev\+Bid} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a6eb5979883c311c60b4c02f8faa20185}{mg\+Stdev\+Bid\+Mean} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a30c5f31a2b624ae505d3b371286a283b}{mg\+Stdev\+Ask} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_a573fe2cde6d4be29b8adb62d9c6df216}{mg\+Stdev\+Ask\+Mean} = 0
+\item 
+double \hyperlink{class_k_1_1_m_g_acd339134ddd47c67ddd7c3a8acdf7b3c}{mg\+Ewma\+Trend\+Diff} = 0
+\item 
+map$<$ \hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price}, \hyperlink{km_8h_ad4d00888c55a47a8a40ed8020d176086}{m\+Amount} $>$ \hyperlink{class_k_1_1_m_g_a7b79b121faa31d26dcd1d6e3fb9a6b24}{filter\+Bid\+Orders}
+\item 
+map$<$ \hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price}, \hyperlink{km_8h_ad4d00888c55a47a8a40ed8020d176086}{m\+Amount} $>$ \hyperlink{class_k_1_1_m_g_aa30d4938235eda21a76452fd71e10ae7}{filter\+Ask\+Orders}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_k_1_1_m_g_a78f61ac2dd03bcba8e09ca20cd7d68e3}{load} ()
+\item 
+void \hyperlink{class_k_1_1_m_g_aa9a0f090ee360e2a9f967200d30f4a22}{wait\+Data} ()
+\item 
+void \hyperlink{class_k_1_1_m_g_aa3f7b56799f5915cfbc902f6426c2bb2}{wait\+User} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file mg.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{K\+::\+MG@{K\+::\+MG}!calc\+Ewma\+History@{calc\+Ewma\+History}}
+\index{calc\+Ewma\+History@{calc\+Ewma\+History}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{calc\+Ewma\+History()}{calcEwmaHistory()}}]{\setlength{\rightskip}{0pt plus 5cm}void calc\+Ewma\+History (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_m_g_aad02ad8dba997ebd2f1e03a94d7b8633}{}\label{class_k_1_1_m_g_aad02ad8dba997ebd2f1e03a94d7b8633}
+
+
+Definition at line 132 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!calc\+Fair\+Value@{calc\+Fair\+Value}}
+\index{calc\+Fair\+Value@{calc\+Fair\+Value}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{calc\+Fair\+Value()}{calcFairValue()}}]{\setlength{\rightskip}{0pt plus 5cm}void calc\+Fair\+Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_m_g_a015722c233590fa0304b0459417dfc6b}{}\label{class_k_1_1_m_g_a015722c233590fa0304b0459417dfc6b}
+
+
+Definition at line 114 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!calc\+Stats@{calc\+Stats}}
+\index{calc\+Stats@{calc\+Stats}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{calc\+Stats()}{calcStats()}}]{\setlength{\rightskip}{0pt plus 5cm}void calc\+Stats (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_m_g_a785796c4aff2e5bddf071efeb14a5f8a}{}\label{class_k_1_1_m_g_a785796c4aff2e5bddf071efeb14a5f8a}
+
+
+Definition at line 106 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!load@{load}}
+\index{load@{load}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{load()}{load()}}]{\setlength{\rightskip}{0pt plus 5cm}void load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_m_g_a78f61ac2dd03bcba8e09ca20cd7d68e3}{}\label{class_k_1_1_m_g_a78f61ac2dd03bcba8e09ca20cd7d68e3}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a5588964fff1d1025245d134e159b60ee}{Klass}.
+
+
+
+Definition at line 47 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!wait\+Data@{wait\+Data}}
+\index{wait\+Data@{wait\+Data}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{wait\+Data()}{waitData()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_m_g_aa9a0f090ee360e2a9f967200d30f4a22}{}\label{class_k_1_1_m_g_aa9a0f090ee360e2a9f967200d30f4a22}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a62a6bf36d7c8bec9dcf7af20c9d21d74}{Klass}.
+
+
+
+Definition at line 91 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!wait\+User@{wait\+User}}
+\index{wait\+User@{wait\+User}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{wait\+User()}{waitUser()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_m_g_aa3f7b56799f5915cfbc902f6426c2bb2}{}\label{class_k_1_1_m_g_aa3f7b56799f5915cfbc902f6426c2bb2}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_af4f5201bed25a292d8a7f40470d83923}{Klass}.
+
+
+
+Definition at line 99 of file mg.\+h.
+
+
+
+\subsection{Field Documentation}
+\index{K\+::\+MG@{K\+::\+MG}!calc\+Quote@{calc\+Quote}}
+\index{calc\+Quote@{calc\+Quote}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{calc\+Quote}{calcQuote}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void()$>$$\ast$ calc\+Quote = nullptr}\hypertarget{class_k_1_1_m_g_a62d2cf6a8a40f2b9f3671e89416b09e1}{}\label{class_k_1_1_m_g_a62d2cf6a8a40f2b9f3671e89416b09e1}
+
+
+Definition at line 28 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!calc\+Target\+Base\+Pos@{calc\+Target\+Base\+Pos}}
+\index{calc\+Target\+Base\+Pos@{calc\+Target\+Base\+Pos}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{calc\+Target\+Base\+Pos}{calcTargetBasePos}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void()$>$ $\ast$ calc\+Target\+Base\+Pos = nullptr}\hypertarget{class_k_1_1_m_g_a427f330e901dc47bf84fd9fe98590924}{}\label{class_k_1_1_m_g_a427f330e901dc47bf84fd9fe98590924}
+
+
+Definition at line 29 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!fair\+Value@{fair\+Value}}
+\index{fair\+Value@{fair\+Value}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{fair\+Value}{fairValue}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Price} fair\+Value = 0}\hypertarget{class_k_1_1_m_g_a68046d94c62e77cce36ea7de25b7927d}{}\label{class_k_1_1_m_g_a68046d94c62e77cce36ea7de25b7927d}
+
+
+Definition at line 31 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!filter\+Ask\+Orders@{filter\+Ask\+Orders}}
+\index{filter\+Ask\+Orders@{filter\+Ask\+Orders}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{filter\+Ask\+Orders}{filterAskOrders}}]{\setlength{\rightskip}{0pt plus 5cm}map$<${\bf m\+Price}, {\bf m\+Amount}$>$ filter\+Ask\+Orders}\hypertarget{class_k_1_1_m_g_aa30d4938235eda21a76452fd71e10ae7}{}\label{class_k_1_1_m_g_aa30d4938235eda21a76452fd71e10ae7}
+
+
+Definition at line 44 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!filter\+Bid\+Orders@{filter\+Bid\+Orders}}
+\index{filter\+Bid\+Orders@{filter\+Bid\+Orders}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{filter\+Bid\+Orders}{filterBidOrders}}]{\setlength{\rightskip}{0pt plus 5cm}map$<${\bf m\+Price}, {\bf m\+Amount}$>$ filter\+Bid\+Orders}\hypertarget{class_k_1_1_m_g_a7b79b121faa31d26dcd1d6e3fb9a6b24}{}\label{class_k_1_1_m_g_a7b79b121faa31d26dcd1d6e3fb9a6b24}
+
+
+Definition at line 44 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!levels@{levels}}
+\index{levels@{levels}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{levels}{levels}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Levels} levels}\hypertarget{class_k_1_1_m_g_a1ff20b3cba9c009511bea1c21952a5ee}{}\label{class_k_1_1_m_g_a1ff20b3cba9c009511bea1c21952a5ee}
+
+
+Definition at line 30 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+EwmaP@{mg\+EwmaP}}
+\index{mg\+EwmaP@{mg\+EwmaP}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+EwmaP}{mgEwmaP}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Price} mg\+EwmaP = 0}\hypertarget{class_k_1_1_m_g_ae990143af8448b62f44b2b2d7787eebc}{}\label{class_k_1_1_m_g_ae990143af8448b62f44b2b2d7787eebc}
+
+
+Definition at line 32 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Ewma\+Trend\+Diff@{mg\+Ewma\+Trend\+Diff}}
+\index{mg\+Ewma\+Trend\+Diff@{mg\+Ewma\+Trend\+Diff}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Ewma\+Trend\+Diff}{mgEwmaTrendDiff}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Ewma\+Trend\+Diff = 0}\hypertarget{class_k_1_1_m_g_acd339134ddd47c67ddd7c3a8acdf7b3c}{}\label{class_k_1_1_m_g_acd339134ddd47c67ddd7c3a8acdf7b3c}
+
+
+Definition at line 43 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+EwmaW@{mg\+EwmaW}}
+\index{mg\+EwmaW@{mg\+EwmaW}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+EwmaW}{mgEwmaW}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Price} mg\+EwmaW = 0}\hypertarget{class_k_1_1_m_g_ad9e670e4f0b6caf6a5a8d8ee23acf178}{}\label{class_k_1_1_m_g_ad9e670e4f0b6caf6a5a8d8ee23acf178}
+
+
+Definition at line 33 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+Ask@{mg\+Stdev\+Ask}}
+\index{mg\+Stdev\+Ask@{mg\+Stdev\+Ask}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+Ask}{mgStdevAsk}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+Ask = 0}\hypertarget{class_k_1_1_m_g_a30c5f31a2b624ae505d3b371286a283b}{}\label{class_k_1_1_m_g_a30c5f31a2b624ae505d3b371286a283b}
+
+
+Definition at line 41 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+Ask\+Mean@{mg\+Stdev\+Ask\+Mean}}
+\index{mg\+Stdev\+Ask\+Mean@{mg\+Stdev\+Ask\+Mean}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+Ask\+Mean}{mgStdevAskMean}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+Ask\+Mean = 0}\hypertarget{class_k_1_1_m_g_a573fe2cde6d4be29b8adb62d9c6df216}{}\label{class_k_1_1_m_g_a573fe2cde6d4be29b8adb62d9c6df216}
+
+
+Definition at line 42 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+Bid@{mg\+Stdev\+Bid}}
+\index{mg\+Stdev\+Bid@{mg\+Stdev\+Bid}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+Bid}{mgStdevBid}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+Bid = 0}\hypertarget{class_k_1_1_m_g_a3c10d311c08f2978192402d961cc32aa}{}\label{class_k_1_1_m_g_a3c10d311c08f2978192402d961cc32aa}
+
+
+Definition at line 39 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+Bid\+Mean@{mg\+Stdev\+Bid\+Mean}}
+\index{mg\+Stdev\+Bid\+Mean@{mg\+Stdev\+Bid\+Mean}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+Bid\+Mean}{mgStdevBidMean}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+Bid\+Mean = 0}\hypertarget{class_k_1_1_m_g_a6eb5979883c311c60b4c02f8faa20185}{}\label{class_k_1_1_m_g_a6eb5979883c311c60b4c02f8faa20185}
+
+
+Definition at line 40 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+FV@{mg\+Stdev\+FV}}
+\index{mg\+Stdev\+FV@{mg\+Stdev\+FV}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+FV}{mgStdevFV}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+FV = 0}\hypertarget{class_k_1_1_m_g_a47f0036553b72247f6754ceddb5c113b}{}\label{class_k_1_1_m_g_a47f0036553b72247f6754ceddb5c113b}
+
+
+Definition at line 37 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+F\+V\+Mean@{mg\+Stdev\+F\+V\+Mean}}
+\index{mg\+Stdev\+F\+V\+Mean@{mg\+Stdev\+F\+V\+Mean}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+F\+V\+Mean}{mgStdevFVMean}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+F\+V\+Mean = 0}\hypertarget{class_k_1_1_m_g_a020f609af7e4ab045b64ca49a8db4f44}{}\label{class_k_1_1_m_g_a020f609af7e4ab045b64ca49a8db4f44}
+
+
+Definition at line 38 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+Top@{mg\+Stdev\+Top}}
+\index{mg\+Stdev\+Top@{mg\+Stdev\+Top}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+Top}{mgStdevTop}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+Top = 0}\hypertarget{class_k_1_1_m_g_ac4451d8294cb8944c256971e1acb775b}{}\label{class_k_1_1_m_g_ac4451d8294cb8944c256971e1acb775b}
+
+
+Definition at line 35 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!mg\+Stdev\+Top\+Mean@{mg\+Stdev\+Top\+Mean}}
+\index{mg\+Stdev\+Top\+Mean@{mg\+Stdev\+Top\+Mean}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{mg\+Stdev\+Top\+Mean}{mgStdevTopMean}}]{\setlength{\rightskip}{0pt plus 5cm}double mg\+Stdev\+Top\+Mean = 0}\hypertarget{class_k_1_1_m_g_abf4a6e034d5cf8359ada9f8344b0f469}{}\label{class_k_1_1_m_g_abf4a6e034d5cf8359ada9f8344b0f469}
+
+
+Definition at line 36 of file mg.\+h.
+
+\index{K\+::\+MG@{K\+::\+MG}!target\+Position@{target\+Position}}
+\index{target\+Position@{target\+Position}!K\+::\+MG@{K\+::\+MG}}
+\subsubsection[{\texorpdfstring{target\+Position}{targetPosition}}]{\setlength{\rightskip}{0pt plus 5cm}double target\+Position = 0}\hypertarget{class_k_1_1_m_g_a413889c063d487f39908c7c777096aa1}{}\label{class_k_1_1_m_g_a413889c063d487f39908c7c777096aa1}
+
+
+Definition at line 34 of file mg.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{mg_8h}{mg.\+h}\end{DoxyCompactItemize}

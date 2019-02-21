@@ -1,0 +1,120 @@
+\hypertarget{fn_8h}{}\section{fn.\+h File Reference}
+\label{fn_8h}\index{fn.\+h@{fn.\+h}}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{fn_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_k_1_1_f_n}{FN}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespace_k}{K}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{fn_8h_a597a559dabd3d64ceb55c5f4aa236187}{\+\_\+nums\+Az\+\_\+}
+\item 
+\#define \hyperlink{fn_8h_a8e4989b59a9e6ba0edbf26978c7a4f38}{\+\_\+\+Tclock\+\_\+}~chrono\+::system\+\_\+clock\+::now()
+\item 
+\#define \hyperlink{fn_8h_af2447862212be4677b0862ae1acdc09b}{\+\_\+\+Tstamp\+\_\+}
+\item 
+\#define \hyperlink{fn_8h_a4b3437698886f7761ab3eede7b794220}{\+\_\+fixed\+X\+\_\+}(d,  s,  X)
+\item 
+\#define \hyperlink{fn_8h_a3d5a9f907b48f77b76e04ecbeb005cef}{\+\_\+fixed8\+\_\+}(d,  s)~\hyperlink{fn_8h_a4b3437698886f7761ab3eede7b794220}{\+\_\+fixed\+X\+\_\+}(d, s, 8)
+\item 
+\#define \hyperlink{fn_8h_a346f536e7c4d9b061b2a4d3e5ea3f550}{\+\_\+trunc8\+\_\+}(d)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{fn.\+h@{fn.\+h}!\+\_\+fixed8\+\_\+@{\+\_\+fixed8\+\_\+}}
+\index{\+\_\+fixed8\+\_\+@{\+\_\+fixed8\+\_\+}!fn.\+h@{fn.\+h}}
+\subsubsection[{\texorpdfstring{\+\_\+fixed8\+\_\+}{_fixed8_}}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+fixed8\+\_\+(
+\begin{DoxyParamCaption}
+\item[{}]{d, }
+\item[{}]{s}
+\end{DoxyParamCaption}
+)~{\bf \+\_\+fixed\+X\+\_\+}(d, s, 8)}\hypertarget{fn_8h_a3d5a9f907b48f77b76e04ecbeb005cef}{}\label{fn_8h_a3d5a9f907b48f77b76e04ecbeb005cef}
+
+
+Definition at line 19 of file fn.\+h.
+
+\index{fn.\+h@{fn.\+h}!\+\_\+fixed\+X\+\_\+@{\+\_\+fixed\+X\+\_\+}}
+\index{\+\_\+fixed\+X\+\_\+@{\+\_\+fixed\+X\+\_\+}!fn.\+h@{fn.\+h}}
+\subsubsection[{\texorpdfstring{\+\_\+fixed\+X\+\_\+}{_fixedX_}}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+fixed\+X\+\_\+(
+\begin{DoxyParamCaption}
+\item[{}]{d, }
+\item[{}]{s, }
+\item[{}]{X}
+\end{DoxyParamCaption}
+)}\hypertarget{fn_8h_a4b3437698886f7761ab3eede7b794220}{}\label{fn_8h_a4b3437698886f7761ab3eede7b794220}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\{ stringstream ss;     \(\backslash\)
+                           ss << setprecision(X) \(\backslash\)
+                              << fixed << d;     \(\backslash\)
+                           s = ss.str();         \}
+\end{DoxyCode}
+
+
+Definition at line 14 of file fn.\+h.
+
+\index{fn.\+h@{fn.\+h}!\+\_\+nums\+Az\+\_\+@{\+\_\+nums\+Az\+\_\+}}
+\index{\+\_\+nums\+Az\+\_\+@{\+\_\+nums\+Az\+\_\+}!fn.\+h@{fn.\+h}}
+\subsubsection[{\texorpdfstring{\+\_\+nums\+Az\+\_\+}{_numsAz_}}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+nums\+Az\+\_\+}\hypertarget{fn_8h_a597a559dabd3d64ceb55c5f4aa236187}{}\label{fn_8h_a597a559dabd3d64ceb55c5f4aa236187}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{stringliteral}{"0123456789"}                 \(\backslash\)
+                 \textcolor{stringliteral}{"ABCDEFGHIJKLMNOPQRSTUVWXYZ"} \(\backslash\)
+                 \textcolor{stringliteral}{"abcdefghijklmnopqrstuvwxyz"}
+\end{DoxyCode}
+
+
+Definition at line 4 of file fn.\+h.
+
+\index{fn.\+h@{fn.\+h}!\+\_\+\+Tclock\+\_\+@{\+\_\+\+Tclock\+\_\+}}
+\index{\+\_\+\+Tclock\+\_\+@{\+\_\+\+Tclock\+\_\+}!fn.\+h@{fn.\+h}}
+\subsubsection[{\texorpdfstring{\+\_\+\+Tclock\+\_\+}{_Tclock_}}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+\+Tclock\+\_\+~chrono\+::system\+\_\+clock\+::now()}\hypertarget{fn_8h_a8e4989b59a9e6ba0edbf26978c7a4f38}{}\label{fn_8h_a8e4989b59a9e6ba0edbf26978c7a4f38}
+
+
+Definition at line 8 of file fn.\+h.
+
+\index{fn.\+h@{fn.\+h}!\+\_\+trunc8\+\_\+@{\+\_\+trunc8\+\_\+}}
+\index{\+\_\+trunc8\+\_\+@{\+\_\+trunc8\+\_\+}!fn.\+h@{fn.\+h}}
+\subsubsection[{\texorpdfstring{\+\_\+trunc8\+\_\+}{_trunc8_}}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+trunc8\+\_\+(
+\begin{DoxyParamCaption}
+\item[{}]{d}
+\end{DoxyParamCaption}
+)}\hypertarget{fn_8h_a346f536e7c4d9b061b2a4d3e5ea3f550}{}\label{fn_8h_a346f536e7c4d9b061b2a4d3e5ea3f550}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\{ \textcolor{keywordtype}{string} s;      \hyperlink{fn_8h_a3d5a9f907b48f77b76e04ecbeb005cef}{\(\backslash\)}
+\hyperlink{fn_8h_a3d5a9f907b48f77b76e04ecbeb005cef}{                      \_fixed8\_}(d, s) \(\backslash\)
+                      d = stod(s);   \}
+\end{DoxyCode}
+
+
+Definition at line 21 of file fn.\+h.
+
+\index{fn.\+h@{fn.\+h}!\+\_\+\+Tstamp\+\_\+@{\+\_\+\+Tstamp\+\_\+}}
+\index{\+\_\+\+Tstamp\+\_\+@{\+\_\+\+Tstamp\+\_\+}!fn.\+h@{fn.\+h}}
+\subsubsection[{\texorpdfstring{\+\_\+\+Tstamp\+\_\+}{_Tstamp_}}]{\setlength{\rightskip}{0pt plus 5cm}\#define \+\_\+\+Tstamp\+\_\+}\hypertarget{fn_8h_af2447862212be4677b0862ae1acdc09b}{}\label{fn_8h_af2447862212be4677b0862ae1acdc09b}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+chrono::duration\_cast<chrono::milliseconds>( \hyperlink{fn_8h_a8e4989b59a9e6ba0edbf26978c7a4f38}{\(\backslash\)}
+\hyperlink{fn_8h_a8e4989b59a9e6ba0edbf26978c7a4f38}{                   \_Tclock\_}.time\_since\_epoch()                \(\backslash\)
+                 ).count()
+\end{DoxyCode}
+
+
+Definition at line 10 of file fn.\+h.
+

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['safety',['safety',['../struct_k_1_1m_quoting_params.html#a366be3c92bc258600ccf2d6e93cdd852',1,'K::mQuotingParams::safety()'],['../class_k_1_1_p_g.html#a03dcb43533cb6cabba43716d9207b789',1,'K::PG::safety()']]],
+  ['screen',['screen',['../class_k_1_1_klass.html#a5819639653d62dde47c40c9d0c06f7ac',1,'K::Klass']]],
+  ['secret',['secret',['../class_k_1_1_gw.html#ae27f9f88345b7cc8388e912993d34b69',1,'K::Gw']]],
+  ['sell',['sell',['../struct_k_1_1m_safety.html#ac753cc5fd2db1d8b63e1727f8d98870a',1,'K::mSafety']]],
+  ['sellping',['sellPing',['../struct_k_1_1m_safety.html#a7069fdb29b101d36a39e9d69118360c2',1,'K::mSafety']]],
+  ['sellsize',['sellSize',['../struct_k_1_1m_quoting_params.html#a4f82c0df812be2c3dc86ab0778b171d7',1,'K::mQuotingParams::sellSize()'],['../struct_k_1_1m_safety.html#a4f82c0df812be2c3dc86ab0778b171d7',1,'K::mSafety::sellSize()']]],
+  ['sellsizemax',['sellSizeMax',['../struct_k_1_1m_quoting_params.html#a91e84c2561413850c96212769eff466c',1,'K::mQuotingParams']]],
+  ['sellsizepercentage',['sellSizePercentage',['../struct_k_1_1m_quoting_params.html#af5250a47f1886c3ec8366e6c0743434d',1,'K::mQuotingParams']]],
+  ['send',['send',['../class_k_1_1_u_i.html#ac38fb07fa9906993bdfa70f5005037c2',1,'K::UI']]],
+  ['shortewmaperiods',['shortEwmaPeriods',['../struct_k_1_1m_quoting_params.html#a65a5668435d92d42e7f593610c631d05',1,'K::mQuotingParams']]],
+  ['side',['side',['../struct_k_1_1m_trade.html#afc5924267a11b19eb2f198a919a12351',1,'K::mTrade::side()'],['../struct_k_1_1m_order.html#afc5924267a11b19eb2f198a919a12351',1,'K::mOrder::side()']]],
+  ['sideapr',['sideAPR',['../class_k_1_1_p_g.html#af1d15671cf0f5d0d6c5ebac51f08bae1',1,'K::PG']]],
+  ['size',['size',['../class_k_1_1_d_b.html#a0101f5929df54174b492135ea931b3dc',1,'K::DB::size()'],['../struct_k_1_1m_level.html#a80e6b92688e6f32c50432b26bf8b197c',1,'K::mLevel::size()']]],
+  ['sopsizemultiplier',['sopSizeMultiplier',['../struct_k_1_1m_quoting_params.html#a12996d4a63f260eadde561945f4de34a',1,'K::mQuotingParams']]],
+  ['soptradesmultiplier',['sopTradesMultiplier',['../struct_k_1_1m_quoting_params.html#a2f287785df6177addf95607799ab4092',1,'K::mQuotingParams']]],
+  ['sopwidthmultiplier',['sopWidthMultiplier',['../struct_k_1_1m_quoting_params.html#a48109b838d1faaf4dbe97fe214a6e266',1,'K::mQuotingParams']]],
+  ['supertrades',['superTrades',['../struct_k_1_1m_quoting_params.html#a827aff7828ab29643db30a5b6e0cafbd',1,'K::mQuotingParams']]],
+  ['symbol',['symbol',['../class_k_1_1_gw.html#aa0183fad0a4c5c8a30c8fdc7b81a1279',1,'K::Gw']]]
+];

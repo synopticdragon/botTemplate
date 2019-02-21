@@ -1,0 +1,204 @@
+\hypertarget{class_k_1_1_o_g}{}\section{OG Class Reference}
+\label{class_k_1_1_o_g}\index{OG@{OG}}
+
+
+{\ttfamily \#include $<$og.\+h$>$}
+
+
+
+Inheritance diagram for OG\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=121pt]{class_k_1_1_o_g__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for OG\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_k_1_1_o_g__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_k_1_1_o_g_a1abe610a042782fc064f909adf519013}{send\+Order} (vector$<$ \hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id} $>$ to\+Cancel, \hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}{m\+Side} side, \hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price} price, \hyperlink{km_8h_ad4d00888c55a47a8a40ed8020d176086}{m\+Amount} qty, \hyperlink{namespace_k_a131435180aff10fab1bf3da09af62b0d}{m\+Order\+Type} type, \hyperlink{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44}{m\+Time\+In\+Force} tif, bool is\+Pong, bool post\+Only)
+\item 
+void \hyperlink{class_k_1_1_o_g_a9b8d071fe7202c65f78901a02a1e04d6}{cancel\+Order} (\hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id} order\+Id)
+\item 
+void \hyperlink{class_k_1_1_o_g_ab503bb642cb730d5be83e54c16a6e7e7}{clean\+Order} (\hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id} \&order\+Id)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+map$<$ \hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{struct_k_1_1m_order}{m\+Order} $>$ \hyperlink{class_k_1_1_o_g_a3edc39f2b61ed046bfac9414042e54c4}{orders}
+\item 
+vector$<$ \hyperlink{struct_k_1_1m_trade}{m\+Trade} $>$ \hyperlink{class_k_1_1_o_g_a4b64cd03cacdbed4ca7d0b7151546441}{trades\+History}
+\item 
+function$<$ void(\hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}{m\+Side}, bool)$>$ $\ast$ \hyperlink{class_k_1_1_o_g_a61416b97cde02a422eb91f3d29ef346f}{calc\+Wallet\+After\+Order} = nullptr
+\item 
+function$<$ void(\hyperlink{struct_k_1_1m_trade}{m\+Trade} $\ast$)$>$ $\ast$ \hyperlink{class_k_1_1_o_g_a58a0b5975f3806226227956a06f57432}{calc\+Safety\+After\+Trade} = nullptr
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_k_1_1_o_g_a78f61ac2dd03bcba8e09ca20cd7d68e3}{load} ()
+\item 
+void \hyperlink{class_k_1_1_o_g_aa9a0f090ee360e2a9f967200d30f4a22}{wait\+Data} ()
+\item 
+void \hyperlink{class_k_1_1_o_g_aa3f7b56799f5915cfbc902f6426c2bb2}{wait\+User} ()
+\item 
+void \hyperlink{class_k_1_1_o_g_a13a43e6d814de94978c515cb084873b1}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file og.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{K\+::\+OG@{K\+::\+OG}!cancel\+Order@{cancel\+Order}}
+\index{cancel\+Order@{cancel\+Order}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{cancel\+Order(m\+Rand\+Id order\+Id)}{cancelOrder(mRandId orderId)}}]{\setlength{\rightskip}{0pt plus 5cm}void cancel\+Order (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Rand\+Id}}]{order\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_o_g_a9b8d071fe7202c65f78901a02a1e04d6}{}\label{class_k_1_1_o_g_a9b8d071fe7202c65f78901a02a1e04d6}
+
+
+Definition at line 57 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!clean\+Order@{clean\+Order}}
+\index{clean\+Order@{clean\+Order}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{clean\+Order(m\+Rand\+Id \&order\+Id)}{cleanOrder(mRandId &orderId)}}]{\setlength{\rightskip}{0pt plus 5cm}void clean\+Order (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Rand\+Id} \&}]{order\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_o_g_ab503bb642cb730d5be83e54c16a6e7e7}{}\label{class_k_1_1_o_g_ab503bb642cb730d5be83e54c16a6e7e7}
+
+
+Definition at line 64 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!load@{load}}
+\index{load@{load}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{load()}{load()}}]{\setlength{\rightskip}{0pt plus 5cm}void load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_o_g_a78f61ac2dd03bcba8e09ca20cd7d68e3}{}\label{class_k_1_1_o_g_a78f61ac2dd03bcba8e09ca20cd7d68e3}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a5588964fff1d1025245d134e159b60ee}{Klass}.
+
+
+
+Definition at line 12 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!run@{run}}
+\index{run@{run}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{run()}{run()}}]{\setlength{\rightskip}{0pt plus 5cm}void run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_o_g_a13a43e6d814de94978c515cb084873b1}{}\label{class_k_1_1_o_g_a13a43e6d814de94978c515cb084873b1}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a72fcb26a14f6beb1c3fbace9ab3e7dbb}{Klass}.
+
+
+
+Definition at line 33 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!send\+Order@{send\+Order}}
+\index{send\+Order@{send\+Order}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{send\+Order(vector$<$ m\+Rand\+Id $>$ to\+Cancel, m\+Side side, m\+Price price, m\+Amount qty, m\+Order\+Type type, m\+Time\+In\+Force tif, bool is\+Pong, bool post\+Only)}{sendOrder(vector< mRandId > toCancel, mSide side, mPrice price, mAmount qty, mOrderType type, mTimeInForce tif, bool isPong, bool postOnly)}}]{\setlength{\rightskip}{0pt plus 5cm}void send\+Order (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf m\+Rand\+Id} $>$}]{to\+Cancel, }
+\item[{{\bf m\+Side}}]{side, }
+\item[{{\bf m\+Price}}]{price, }
+\item[{{\bf m\+Amount}}]{qty, }
+\item[{{\bf m\+Order\+Type}}]{type, }
+\item[{{\bf m\+Time\+In\+Force}}]{tif, }
+\item[{bool}]{is\+Pong, }
+\item[{bool}]{post\+Only}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_o_g_a1abe610a042782fc064f909adf519013}{}\label{class_k_1_1_o_g_a1abe610a042782fc064f909adf519013}
+
+
+Definition at line 38 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!wait\+Data@{wait\+Data}}
+\index{wait\+Data@{wait\+Data}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{wait\+Data()}{waitData()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_o_g_aa9a0f090ee360e2a9f967200d30f4a22}{}\label{class_k_1_1_o_g_aa9a0f090ee360e2a9f967200d30f4a22}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a62a6bf36d7c8bec9dcf7af20c9d21d74}{Klass}.
+
+
+
+Definition at line 17 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!wait\+User@{wait\+User}}
+\index{wait\+User@{wait\+User}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{wait\+User()}{waitUser()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_o_g_aa3f7b56799f5915cfbc902f6426c2bb2}{}\label{class_k_1_1_o_g_aa3f7b56799f5915cfbc902f6426c2bb2}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_af4f5201bed25a292d8a7f40470d83923}{Klass}.
+
+
+
+Definition at line 23 of file og.\+h.
+
+
+
+\subsection{Field Documentation}
+\index{K\+::\+OG@{K\+::\+OG}!calc\+Safety\+After\+Trade@{calc\+Safety\+After\+Trade}}
+\index{calc\+Safety\+After\+Trade@{calc\+Safety\+After\+Trade}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{calc\+Safety\+After\+Trade}{calcSafetyAfterTrade}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Trade}$\ast$)$>$$\ast$ calc\+Safety\+After\+Trade = nullptr}\hypertarget{class_k_1_1_o_g_a58a0b5975f3806226227956a06f57432}{}\label{class_k_1_1_o_g_a58a0b5975f3806226227956a06f57432}
+
+
+Definition at line 10 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!calc\+Wallet\+After\+Order@{calc\+Wallet\+After\+Order}}
+\index{calc\+Wallet\+After\+Order@{calc\+Wallet\+After\+Order}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{calc\+Wallet\+After\+Order}{calcWalletAfterOrder}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Side}, bool)$>$$\ast$ calc\+Wallet\+After\+Order = nullptr}\hypertarget{class_k_1_1_o_g_a61416b97cde02a422eb91f3d29ef346f}{}\label{class_k_1_1_o_g_a61416b97cde02a422eb91f3d29ef346f}
+
+
+Definition at line 9 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!orders@{orders}}
+\index{orders@{orders}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{orders}{orders}}]{\setlength{\rightskip}{0pt plus 5cm}map$<${\bf m\+Rand\+Id}, {\bf m\+Order}$>$ orders}\hypertarget{class_k_1_1_o_g_a3edc39f2b61ed046bfac9414042e54c4}{}\label{class_k_1_1_o_g_a3edc39f2b61ed046bfac9414042e54c4}
+
+
+Definition at line 7 of file og.\+h.
+
+\index{K\+::\+OG@{K\+::\+OG}!trades\+History@{trades\+History}}
+\index{trades\+History@{trades\+History}!K\+::\+OG@{K\+::\+OG}}
+\subsubsection[{\texorpdfstring{trades\+History}{tradesHistory}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf m\+Trade}$>$ trades\+History}\hypertarget{class_k_1_1_o_g_a4b64cd03cacdbed4ca7d0b7151546441}{}\label{class_k_1_1_o_g_a4b64cd03cacdbed4ca7d0b7151546441}
+
+
+Definition at line 8 of file og.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{og_8h}{og.\+h}\end{DoxyCompactItemize}

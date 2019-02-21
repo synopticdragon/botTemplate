@@ -1,0 +1,910 @@
+\hypertarget{namespace_k}{}\section{K Namespace Reference}
+\label{namespace_k}\index{K@{K}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_k_1_1_c_f}{CF}
+\item 
+class \hyperlink{class_k_1_1_d_b}{DB}
+\item 
+class \hyperlink{class_k_1_1_e_v}{EV}
+\item 
+class \hyperlink{class_k_1_1_f_n}{FN}
+\item 
+class \hyperlink{class_k_1_1_g_w}{GW}
+\item 
+class \hyperlink{class_k_1_1_gw}{Gw}
+\item 
+class \hyperlink{class_k_1_1_klass}{Klass}
+\item 
+class \hyperlink{class_k_1_1k_lass}{k\+Lass}
+\item 
+class \hyperlink{class_k_1_1_m_g}{MG}
+\item 
+struct \hyperlink{struct_k_1_1m_level}{m\+Level}
+\item 
+struct \hyperlink{struct_k_1_1m_levels}{m\+Levels}
+\item 
+struct \hyperlink{struct_k_1_1m_levels_diff}{m\+Levels\+Diff}
+\item 
+struct \hyperlink{struct_k_1_1m_order}{m\+Order}
+\item 
+struct \hyperlink{struct_k_1_1m_pair}{m\+Pair}
+\item 
+struct \hyperlink{struct_k_1_1m_position}{m\+Position}
+\item 
+struct \hyperlink{struct_k_1_1m_profit}{m\+Profit}
+\item 
+struct \hyperlink{struct_k_1_1m_quote}{m\+Quote}
+\item 
+struct \hyperlink{struct_k_1_1m_quote_status}{m\+Quote\+Status}
+\item 
+struct \hyperlink{struct_k_1_1m_quoting_params}{m\+Quoting\+Params}
+\item 
+struct \hyperlink{struct_k_1_1m_safety}{m\+Safety}
+\item 
+struct \hyperlink{struct_k_1_1m_trade}{m\+Trade}
+\item 
+struct \hyperlink{struct_k_1_1m_wallet}{m\+Wallet}
+\item 
+struct \hyperlink{struct_k_1_1m_wallets}{m\+Wallets}
+\item 
+class \hyperlink{class_k_1_1_o_g}{OG}
+\item 
+class \hyperlink{class_k_1_1_p_g}{PG}
+\item 
+class \hyperlink{class_k_1_1_q_e}{QE}
+\item 
+class \hyperlink{class_k_1_1_q_p}{QP}
+\item 
+class \hyperlink{class_k_1_1_s_h}{SH}
+\item 
+class \hyperlink{class_k_1_1_u_i}{UI}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17}{m\+Exchange} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17abbb93ef26e3c101ff11cdd21cab08a94}{Null}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17ae05277537bf941fa13c912696bf55c2f}{Hit\+Btc}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a6af33051ce1839b748ad2f59cb203e0f}{Ok\+Coin}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a28d13ddddf18afba2c3727253ba0d42f}{Coinbase}, 
+\\*
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a4e7d470f48dde438b7e7ee118231262d}{Bitfinex}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a049a956dfeb0eb2e19c417a1dde4d680}{Kraken}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a1299d85e255e3e8967042390b25dffd3}{Ok\+Ex}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17ac17831afdb4609a6f28e6f361c67b55f}{Bitfinex\+Margin}, 
+\\*
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a58fbcde0e62c0d61a359ac2cab9418c6}{Korbit}, 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a90239374e2208c9b3ad9d6ead6d875b8}{Poloniex}
+ \}
+\item 
+enum \hyperlink{namespace_k_a3da250819294c55d5728586148bfa19e}{m\+Connectivity} \+: unsigned int \{ \hyperlink{namespace_k_a3da250819294c55d5728586148bfa19eaef70e46fd3bbc21e3e1f0b6815e750c0}{Disconnected}, 
+\hyperlink{namespace_k_a3da250819294c55d5728586148bfa19ea2ec0d16e4ca169baedb9b2d50ec5c6d7}{Connected}
+ \}
+\item 
+enum \hyperlink{namespace_k_a9ca92b450f3b1738c485770d136ac9e0}{m\+Status} \+: unsigned int \{ \hyperlink{namespace_k_a9ca92b450f3b1738c485770d136ac9e0a03c2e7e41ffc181a4e84080b4710e81e}{New}, 
+\hyperlink{namespace_k_a9ca92b450f3b1738c485770d136ac9e0a829eadc8e29caab50cc26bc6a451a1f1}{Working}, 
+\hyperlink{namespace_k_a9ca92b450f3b1738c485770d136ac9e0aae94f80b3ce82062a5dd7815daa04f9d}{Complete}, 
+\hyperlink{namespace_k_a9ca92b450f3b1738c485770d136ac9e0aa149e85a44aeec9140e92733d9ed694e}{Cancelled}
+ \}
+\item 
+enum \hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}{m\+Side} \+: unsigned int \{ \hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94ae36ba1e187ae2b3ebcfd0a4c68367caf}{Bid}, 
+\hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94aa0b271a9d8aa8e7473922164d6a1c03c}{Ask}, 
+\hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94a130c5b3473c57faa76e2a1c54e26f88e}{Both}
+ \}
+\item 
+enum \hyperlink{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44}{m\+Time\+In\+Force} \+: unsigned int \{ \hyperlink{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a7245a636843f38ae56d5862d502a4303}{I\+OC}, 
+\hyperlink{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a9650d9d6d673551228bb1042f482459f}{F\+OK}, 
+\hyperlink{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a87b20a4d7f9fae0a5b12c2b9c680584b}{G\+TC}
+ \}
+\item 
+enum \hyperlink{namespace_k_a131435180aff10fab1bf3da09af62b0d}{m\+Order\+Type} \+: unsigned int \{ \hyperlink{namespace_k_a131435180aff10fab1bf3da09af62b0da80d2677cf518f4d04320042f4ea6c146}{Limit}, 
+\hyperlink{namespace_k_a131435180aff10fab1bf3da09af62b0da31840a66a8d6d223e5b0540138768838}{Market}
+ \}
+\item 
+enum \hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667c}{m\+Ping\+At} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667cad20455e0ed8edbd95fbbb7dff3d61503}{Both\+Sides}, 
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca50d6b07d51e9c2741ce22c2ed476e018}{Bid\+Side}, 
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca29381a34d014b448d3316e216610d1ce}{Ask\+Side}, 
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667cac2f26a4dd047de7d95959ab8bdb109f4}{Depleted\+Side}, 
+\\*
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca4063c4f19b53c5df60ae4c05c9dd9a54}{Depleted\+Bid\+Side}, 
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667caae428d5bdebd6c7b80f502858b11c8ba}{Depleted\+Ask\+Side}, 
+\hyperlink{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca1ec3d10862ac7f958aad8b62285b08e9}{Stop\+Pings}
+ \}
+\item 
+enum \hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013f}{m\+Pong\+At} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fa102eaf65c3a5f9be2898b918b50c0a09}{Short\+Ping\+Fair}, 
+\hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fae839dfe48819b12d62924214b21c41bb}{Average\+Ping\+Fair}, 
+\hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faea50308be4005a5288ab9ca9835eb264}{Long\+Ping\+Fair}, 
+\hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faf6faf434c7dc6b4c4c2c25e80910be93}{Short\+Ping\+Aggressive}, 
+\\*
+\hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fa7ddcfa83b293abeb8713b2ce5b37ed67}{Average\+Ping\+Aggressive}, 
+\hyperlink{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faef372043d682faaebb32c65219ae0b0d}{Long\+Ping\+Aggressive}
+ \}
+\item 
+enum \hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9}{m\+Quoting\+Mode} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9aa4ffdcf0dc1f31b9acaf295d75b51d00}{Top}, 
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a55c6b09cbca39ef0cdb728eb112a5049}{Mid}, 
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9aa286d9991c6a547ae25a5f5216164b8f}{Join}, 
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a56c381ec4d4882fef3875344e31366c4}{Inverse\+Join}, 
+\\*
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9ad405435761161126203a203ceceb2bf6}{Inverse\+Top}, 
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9ade25a4b5bc9f51863b89a863fc98fdc3}{Hamelin\+Rat}, 
+\hyperlink{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a675056ad1441b6375b2c5abd48c27ef1}{Depth}
+ \}
+\item 
+enum \hyperlink{namespace_k_a89330b32d78089edeaa5bc6fe48d605d}{m\+Quoting\+Safety} \+: unsigned int \{ \hyperlink{namespace_k_a89330b32d78089edeaa5bc6fe48d605dad15305d7a4e34e02489c74a5ef542f36}{Off}, 
+\hyperlink{namespace_k_a89330b32d78089edeaa5bc6fe48d605da99e52704462d3580db3528cad7ea9660}{Ping\+Pong}, 
+\hyperlink{namespace_k_a89330b32d78089edeaa5bc6fe48d605da8c9d96b1ef82662dd41a42e8528876b6}{Boomerang}, 
+\hyperlink{namespace_k_a89330b32d78089edeaa5bc6fe48d605da412070b7feb8fc0fe4859d864cf83596}{A\+K47}
+ \}
+\item 
+enum \hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736}{m\+Quote\+State} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736a955ad3298db330b5ee880c2c9e6f23a0}{Live}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736aef70e46fd3bbc21e3e1f0b6815e750c0}{Disconnected}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736a152243c591927afa2121aea8911cccd2}{Disabled\+Quotes}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736afe155956e8f33e5cffa82cc86a36afbd}{Missing\+Data}, 
+\\*
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736aa6dd615eded3f865e7f58d646d053222}{Unknown\+Held}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736aa082cb41967bd1a64dca9fd7127cb7cc}{T\+B\+P\+Held}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736a5faf2570a6605866bf01a5675538e511}{Max\+Trades\+Seconds}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736a9642b3e14fbadab3e7acfbd02cd8cc73}{Waiting\+Ping}, 
+\\*
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736ac390c66e7e7a9d6c107cc9f63d16fb77}{Depleted\+Funds}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736a23709652ceedf22aad4bbb6a355b83e2}{Crossed}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736abe667931a6504eeaed8bc383e0176c80}{Up\+Trend\+Held}, 
+\hyperlink{namespace_k_a76b6774ff9252e574d375a353ecf6736a2d25ded63a54e99883cace0cc0877cd8}{Down\+Trend\+Held}
+ \}
+\item 
+enum \hyperlink{namespace_k_ae4a47201f2511ecc8ab5b412e872b9dd}{m\+Fair\+Value\+Model} \+: unsigned int \{ \hyperlink{namespace_k_ae4a47201f2511ecc8ab5b412e872b9dda2a723053ab15920e0c2ecd25a2ede6f9}{B\+BO}, 
+\hyperlink{namespace_k_ae4a47201f2511ecc8ab5b412e872b9ddab7a93074edb29bebc9b6144134fa4975}{w\+B\+BO}
+ \}
+\item 
+enum \hyperlink{namespace_k_a8708a45c314b4d4bb9e7221009ccee8a}{m\+Auto\+Position\+Mode} \+: unsigned int \{ \hyperlink{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aae1ba155a9f2e8c3be94020eef32a0301}{Manual}, 
+\hyperlink{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aab539e10bdc606700e99b1e0cff611765}{E\+W\+M\+A\+\_\+\+LS}, 
+\hyperlink{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aa7a06abe21a1d39768d5df863d1c9cfc4}{E\+W\+M\+A\+\_\+\+L\+MS}, 
+\hyperlink{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aaf907e979e96417055b1b3174b18689fd}{E\+W\+M\+A\+\_\+4}
+ \}
+\item 
+enum \hyperlink{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7}{m\+P\+Div\+Mode} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7ae1ba155a9f2e8c3be94020eef32a0301}{Manual}, 
+\hyperlink{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a32a843da6ea40ab3b17a3421ccdf671b}{Linear}, 
+\hyperlink{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a6ca9e2d793f678aba7c1b19526592a46}{Sine}, 
+\hyperlink{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a36875f2500a09ee35d0bb7eb8c0b91b0}{S\+Q\+RT}, 
+\\*
+\hyperlink{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7abbc155fb2b111bf61c4f5ff892915e6b}{Switch}
+ \}
+\item 
+enum \hyperlink{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25}{m\+A\+PR} \+: unsigned int \{ \hyperlink{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25ad15305d7a4e34e02489c74a5ef542f36}{Off}, 
+\hyperlink{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25a6f6cb72d544962fa333e2e34ce64f719}{Size}, 
+\hyperlink{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25a521e68d07542f40555e0bd6361547f8a}{Size\+Width}
+ \}
+\item 
+enum \hyperlink{namespace_k_a2f7964509b276df1811f64989ee56ca5}{m\+S\+OP} \+: unsigned int \{ \hyperlink{namespace_k_a2f7964509b276df1811f64989ee56ca5ad15305d7a4e34e02489c74a5ef542f36}{Off}, 
+\hyperlink{namespace_k_a2f7964509b276df1811f64989ee56ca5a18da2603c92b826445472937933895e5}{Trades}, 
+\hyperlink{namespace_k_a2f7964509b276df1811f64989ee56ca5a6f6cb72d544962fa333e2e34ce64f719}{Size}, 
+\hyperlink{namespace_k_a2f7964509b276df1811f64989ee56ca5a307b9b6d2f7f31e05110e3391dabb83e}{Trades\+Size}
+ \}
+\item 
+enum \hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636}{m\+S\+T\+D\+EV} \+: unsigned int \{ \\*
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636ad15305d7a4e34e02489c74a5ef542f36}{Off}, 
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636aba195c1980354f4259bcb71e0ec84790}{On\+FV}, 
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636a2f95269c5b49e4c173f4434c77a5c44e}{On\+F\+V\+A\+P\+R\+Off}, 
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636a3cfe59668dcf743c426719e30e92a11f}{On\+Tops}, 
+\\*
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636aca34048591922a10fc48621fc379aa11}{On\+Tops\+A\+P\+R\+Off}, 
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636ae1eab7ec616da449c7890bcd3f85bfa2}{On\+Top}, 
+\hyperlink{namespace_k_a648db17031757556a30a6ba51a9ce636a173c34596b864ac314738d30f204a4ec}{On\+Top\+A\+P\+R\+Off}
+ \}
+\item 
+enum \hyperlink{namespace_k_a211862d8b09ec46a051464b6859c1306}{m\+Hotkey} \+: int \{ \hyperlink{namespace_k_a211862d8b09ec46a051464b6859c1306a6351aefd1e5e1b62c76f8580116964be}{E\+SC} = 27, 
+\hyperlink{namespace_k_a211862d8b09ec46a051464b6859c1306af09564c9ca56850d4cd6b3319e541aee}{Q} = 81, 
+\hyperlink{namespace_k_a211862d8b09ec46a051464b6859c1306a7694f4a66316e53c8cdd9d9954bd611d}{q} = 113
+ \}
+\item 
+enum \hyperlink{namespace_k_ab6a388ee7614dc94c1d933688d49b3bb}{m\+Portal} \+: unsigned char \{ \hyperlink{namespace_k_ab6a388ee7614dc94c1d933688d49b3bba8b1a9953c4611296a827abf8c47804d7}{Hello} = \textquotesingle{}=\textquotesingle{}, 
+\hyperlink{namespace_k_ab6a388ee7614dc94c1d933688d49b3bbad61fad2618362cf5c2392d4880e3f4b4}{Kiss} = \textquotesingle{}-\/\textquotesingle{}
+ \}
+\item 
+enum \hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73d}{m\+Matter} \+: unsigned char \{ \\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da95c17992a2bcf98203f6a1048774b1f7}{Fair\+Value} = \textquotesingle{}a\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac48e929b2b1eabba2ba036884433345e}{Quote} = \textquotesingle{}b\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daf18f5fdb8e039d60196b4065580640b7}{Active\+Subscription} = \textquotesingle{}c\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da9bd9d0ebc081bd74f5bef4e136bb1aed}{Connectivity} = \textquotesingle{}d\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac2230c6e4d01b8865ebc4ad0aef9db94}{Market\+Data} = \textquotesingle{}e\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daac974900d8b102bac26cc80ab192f8fb}{Quoting\+Parameters} = \textquotesingle{}f\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dada6fe8bd0dd6e070b6638a40fed954e2}{Safety\+Settings} = \textquotesingle{}g\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dadeb10517653c255364175796ace3553f}{Product} = \textquotesingle{}h\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daef06507b3899c1e8b810bb8cbeba2b76}{Order\+Status\+Reports} = \textquotesingle{}i\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da13728e0c13d8f5168df144b86053ba3c}{Product\+Advertisement} = \textquotesingle{}j\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da06d51239dde617fbf765978bd622115c}{Application\+State} = \textquotesingle{}k\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dad47922653f65611f6f38d4eef7b93e61}{Notepad} = \textquotesingle{}l\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da24d3ff5461155ee60f97c12c3cb38622}{Toggle\+Settings} = \textquotesingle{}m\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da52f5e0bc3859bc5f5e25130b6c7e8881}{Position} = \textquotesingle{}n\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daaf1815bda3e84b3854a3b0d697437590}{Submit\+New\+Order} = \textquotesingle{}p\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da80d0877777fae74f6486c79734cb4643}{Cancel\+Order} = \textquotesingle{}q\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da3aac00a7768e3c27223f6bebe8675380}{Market\+Trade} = \textquotesingle{}r\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da18da2603c92b826445472937933895e5}{Trades} = \textquotesingle{}s\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daa47103a2cc61c37ef564115155eb5a1b}{External\+Valuation} = \textquotesingle{}t\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da87c2649b2d5af994788d90af72bc3a9c}{Quote\+Status} = \textquotesingle{}u\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dabe5c6be5c4decaf0b568f57bde929b6e}{Target\+Base\+Position} = \textquotesingle{}v\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da3143c73288384c4f3a490f6f34bb13d1}{Trade\+Safety\+Value} = \textquotesingle{}w\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da6c19795cf93135bf16da1fab6f9cba0e}{Cancel\+All\+Orders} = \textquotesingle{}x\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da6c4ce2d599005fa9492740a337698cbe}{Clean\+All\+Closed\+Trades} = \textquotesingle{}y\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da719380cf4b51f1b6f511440e6d486b92}{Clean\+All\+Trades} = \textquotesingle{}z\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac8ac95f3aeb53cabf4e9c847e13145c3}{Clean\+Trade} = \textquotesingle{}A\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dabf01452e31130adbd0472aad7ab1fe69}{Trades\+Chart} = \textquotesingle{}B\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dadcaaff7eb89d9559a14ee9e0ce2648b3}{Wallet\+Chart} = \textquotesingle{}C\textquotesingle{}, 
+\\*
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac68b9ff55f400f5dd9adcd7a3f5372e4}{E\+W\+M\+A\+Chart} = \textquotesingle{}D\textquotesingle{}, 
+\hyperlink{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da5b1db54b38dd6c252bda6e022ee26d04}{Market\+Data\+Long\+Term} = \textquotesingle{}G\textquotesingle{}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespace_k_a8cf9916382d8c2046656233c4422022d}{tracelog}
+\item 
+vector$<$ function$<$ void()$>$ $\ast$ $>$ \hyperlink{namespace_k_a1c3ecbe3046298af183be61349de6900}{ending\+Fn}
+\item 
+char \hyperlink{namespace_k_a1203c8bea34ade1c1d524b0df5bfdf37}{R\+B\+L\+A\+CK} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;30m\char`\"{}
+\item 
+char \hyperlink{namespace_k_ae976a2e4e900318926db4fa1624bc30a}{R\+R\+ED} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;31m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a9c4858b8b93beb509648e92071d727ca}{R\+G\+R\+E\+EN} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;32m\char`\"{}
+\item 
+char \hyperlink{namespace_k_abd378d9900fa5f1effc177ef1a3eaf88}{R\+Y\+E\+L\+L\+OW} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;33m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a035ca76c4d8abd4253d53e1dfb952368}{R\+B\+L\+UE} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;34m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a16f016905667739f3d64b6ab7e4d7f95}{R\+P\+U\+R\+P\+LE} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;35m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a816b9af371d1741fead9f73abb978052}{R\+C\+Y\+AN} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;36m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a37a06065638319240adf83b5bdfdf313}{R\+W\+H\+I\+TE} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;37m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a1b5ebfb775cf88920f1beb1b59c80137}{B\+B\+L\+A\+CK} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;30m\char`\"{}
+\item 
+char \hyperlink{namespace_k_ae09107156acfd00c2e31f049f70b622a}{B\+R\+ED} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;31m\char`\"{}
+\item 
+char \hyperlink{namespace_k_aa83d8d71c463813bdbd57fab20312b7d}{B\+G\+R\+E\+EN} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;32m\char`\"{}
+\item 
+char \hyperlink{namespace_k_aa522b04bcf50df65fd4819d0b46d6664}{B\+Y\+E\+L\+L\+OW} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;33m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a2fcd49453f10ffd3ccb5aebe30f5d0c0}{B\+B\+L\+UE} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;34m\char`\"{}
+\item 
+char \hyperlink{namespace_k_adcaba86455bd5bd0cbdeac28c4fced2b}{B\+P\+U\+R\+P\+LE} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;35m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a2c3e50cb34db635087047ef75ab1ca52}{B\+C\+Y\+AN} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;36m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a723a80b3fad44765a8c6371fd4841609}{B\+W\+H\+I\+TE} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;37m\char`\"{}
+\item 
+char \hyperlink{namespace_k_a610d2184e75b6475eaf1f16700be824e}{R\+R\+E\+S\+ET} \mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0m\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\index{K@{K}!m\+A\+PR@{m\+A\+PR}}
+\index{m\+A\+PR@{m\+A\+PR}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+A\+PR}{mAPR}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+A\+PR} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25}{}\label{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Off@{Off}!K@{K}}\index{K@{K}!Off@{Off}}\item[{\em 
+Off\hypertarget{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25ad15305d7a4e34e02489c74a5ef542f36}{}\label{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25ad15305d7a4e34e02489c74a5ef542f36}
+}]\index{Size@{Size}!K@{K}}\index{K@{K}!Size@{Size}}\item[{\em 
+Size\hypertarget{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25a6f6cb72d544962fa333e2e34ce64f719}{}\label{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25a6f6cb72d544962fa333e2e34ce64f719}
+}]\index{Size\+Width@{Size\+Width}!K@{K}}\index{K@{K}!Size\+Width@{Size\+Width}}\item[{\em 
+Size\+Width\hypertarget{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25a521e68d07542f40555e0bd6361547f8a}{}\label{namespace_k_a8fb2f5e34d77eef380ac27a7737a3a25a521e68d07542f40555e0bd6361547f8a}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 25 of file km.\+h.
+
+\index{K@{K}!m\+Auto\+Position\+Mode@{m\+Auto\+Position\+Mode}}
+\index{m\+Auto\+Position\+Mode@{m\+Auto\+Position\+Mode}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Auto\+Position\+Mode}{mAutoPositionMode}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Auto\+Position\+Mode} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a8708a45c314b4d4bb9e7221009ccee8a}{}\label{namespace_k_a8708a45c314b4d4bb9e7221009ccee8a}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Manual@{Manual}!K@{K}}\index{K@{K}!Manual@{Manual}}\item[{\em 
+Manual\hypertarget{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aae1ba155a9f2e8c3be94020eef32a0301}{}\label{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aae1ba155a9f2e8c3be94020eef32a0301}
+}]\index{E\+W\+M\+A\+\_\+\+LS@{E\+W\+M\+A\+\_\+\+LS}!K@{K}}\index{K@{K}!E\+W\+M\+A\+\_\+\+LS@{E\+W\+M\+A\+\_\+\+LS}}\item[{\em 
+E\+W\+M\+A\+\_\+\+LS\hypertarget{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aab539e10bdc606700e99b1e0cff611765}{}\label{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aab539e10bdc606700e99b1e0cff611765}
+}]\index{E\+W\+M\+A\+\_\+\+L\+MS@{E\+W\+M\+A\+\_\+\+L\+MS}!K@{K}}\index{K@{K}!E\+W\+M\+A\+\_\+\+L\+MS@{E\+W\+M\+A\+\_\+\+L\+MS}}\item[{\em 
+E\+W\+M\+A\+\_\+\+L\+MS\hypertarget{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aa7a06abe21a1d39768d5df863d1c9cfc4}{}\label{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aa7a06abe21a1d39768d5df863d1c9cfc4}
+}]\index{E\+W\+M\+A\+\_\+4@{E\+W\+M\+A\+\_\+4}!K@{K}}\index{K@{K}!E\+W\+M\+A\+\_\+4@{E\+W\+M\+A\+\_\+4}}\item[{\em 
+E\+W\+M\+A\+\_\+4\hypertarget{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aaf907e979e96417055b1b3174b18689fd}{}\label{namespace_k_a8708a45c314b4d4bb9e7221009ccee8aaf907e979e96417055b1b3174b18689fd}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 23 of file km.\+h.
+
+\index{K@{K}!m\+Connectivity@{m\+Connectivity}}
+\index{m\+Connectivity@{m\+Connectivity}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Connectivity}{mConnectivity}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Connectivity} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a3da250819294c55d5728586148bfa19e}{}\label{namespace_k_a3da250819294c55d5728586148bfa19e}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Disconnected@{Disconnected}!K@{K}}\index{K@{K}!Disconnected@{Disconnected}}\item[{\em 
+Disconnected\hypertarget{namespace_k_a3da250819294c55d5728586148bfa19eaef70e46fd3bbc21e3e1f0b6815e750c0}{}\label{namespace_k_a3da250819294c55d5728586148bfa19eaef70e46fd3bbc21e3e1f0b6815e750c0}
+}]\index{Connected@{Connected}!K@{K}}\index{K@{K}!Connected@{Connected}}\item[{\em 
+Connected\hypertarget{namespace_k_a3da250819294c55d5728586148bfa19ea2ec0d16e4ca169baedb9b2d50ec5c6d7}{}\label{namespace_k_a3da250819294c55d5728586148bfa19ea2ec0d16e4ca169baedb9b2d50ec5c6d7}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 12 of file km.\+h.
+
+\index{K@{K}!m\+Exchange@{m\+Exchange}}
+\index{m\+Exchange@{m\+Exchange}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Exchange}{mExchange}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Exchange} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Null@{Null}!K@{K}}\index{K@{K}!Null@{Null}}\item[{\em 
+Null\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17abbb93ef26e3c101ff11cdd21cab08a94}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17abbb93ef26e3c101ff11cdd21cab08a94}
+}]\index{Hit\+Btc@{Hit\+Btc}!K@{K}}\index{K@{K}!Hit\+Btc@{Hit\+Btc}}\item[{\em 
+Hit\+Btc\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17ae05277537bf941fa13c912696bf55c2f}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17ae05277537bf941fa13c912696bf55c2f}
+}]\index{Ok\+Coin@{Ok\+Coin}!K@{K}}\index{K@{K}!Ok\+Coin@{Ok\+Coin}}\item[{\em 
+Ok\+Coin\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a6af33051ce1839b748ad2f59cb203e0f}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a6af33051ce1839b748ad2f59cb203e0f}
+}]\index{Coinbase@{Coinbase}!K@{K}}\index{K@{K}!Coinbase@{Coinbase}}\item[{\em 
+Coinbase\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a28d13ddddf18afba2c3727253ba0d42f}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a28d13ddddf18afba2c3727253ba0d42f}
+}]\index{Bitfinex@{Bitfinex}!K@{K}}\index{K@{K}!Bitfinex@{Bitfinex}}\item[{\em 
+Bitfinex\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a4e7d470f48dde438b7e7ee118231262d}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a4e7d470f48dde438b7e7ee118231262d}
+}]\index{Kraken@{Kraken}!K@{K}}\index{K@{K}!Kraken@{Kraken}}\item[{\em 
+Kraken\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a049a956dfeb0eb2e19c417a1dde4d680}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a049a956dfeb0eb2e19c417a1dde4d680}
+}]\index{Ok\+Ex@{Ok\+Ex}!K@{K}}\index{K@{K}!Ok\+Ex@{Ok\+Ex}}\item[{\em 
+Ok\+Ex\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a1299d85e255e3e8967042390b25dffd3}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a1299d85e255e3e8967042390b25dffd3}
+}]\index{Bitfinex\+Margin@{Bitfinex\+Margin}!K@{K}}\index{K@{K}!Bitfinex\+Margin@{Bitfinex\+Margin}}\item[{\em 
+Bitfinex\+Margin\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17ac17831afdb4609a6f28e6f361c67b55f}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17ac17831afdb4609a6f28e6f361c67b55f}
+}]\index{Korbit@{Korbit}!K@{K}}\index{K@{K}!Korbit@{Korbit}}\item[{\em 
+Korbit\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a58fbcde0e62c0d61a359ac2cab9418c6}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a58fbcde0e62c0d61a359ac2cab9418c6}
+}]\index{Poloniex@{Poloniex}!K@{K}}\index{K@{K}!Poloniex@{Poloniex}}\item[{\em 
+Poloniex\hypertarget{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a90239374e2208c9b3ad9d6ead6d875b8}{}\label{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17a90239374e2208c9b3ad9d6ead6d875b8}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 11 of file km.\+h.
+
+\index{K@{K}!m\+Fair\+Value\+Model@{m\+Fair\+Value\+Model}}
+\index{m\+Fair\+Value\+Model@{m\+Fair\+Value\+Model}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Fair\+Value\+Model}{mFairValueModel}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Fair\+Value\+Model} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_ae4a47201f2511ecc8ab5b412e872b9dd}{}\label{namespace_k_ae4a47201f2511ecc8ab5b412e872b9dd}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{B\+BO@{B\+BO}!K@{K}}\index{K@{K}!B\+BO@{B\+BO}}\item[{\em 
+B\+BO\hypertarget{namespace_k_ae4a47201f2511ecc8ab5b412e872b9dda2a723053ab15920e0c2ecd25a2ede6f9}{}\label{namespace_k_ae4a47201f2511ecc8ab5b412e872b9dda2a723053ab15920e0c2ecd25a2ede6f9}
+}]\index{w\+B\+BO@{w\+B\+BO}!K@{K}}\index{K@{K}!w\+B\+BO@{w\+B\+BO}}\item[{\em 
+w\+B\+BO\hypertarget{namespace_k_ae4a47201f2511ecc8ab5b412e872b9ddab7a93074edb29bebc9b6144134fa4975}{}\label{namespace_k_ae4a47201f2511ecc8ab5b412e872b9ddab7a93074edb29bebc9b6144134fa4975}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 22 of file km.\+h.
+
+\index{K@{K}!m\+Hotkey@{m\+Hotkey}}
+\index{m\+Hotkey@{m\+Hotkey}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Hotkey}{mHotkey}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Hotkey} \+: int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a211862d8b09ec46a051464b6859c1306}{}\label{namespace_k_a211862d8b09ec46a051464b6859c1306}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{E\+SC@{E\+SC}!K@{K}}\index{K@{K}!E\+SC@{E\+SC}}\item[{\em 
+E\+SC\hypertarget{namespace_k_a211862d8b09ec46a051464b6859c1306a6351aefd1e5e1b62c76f8580116964be}{}\label{namespace_k_a211862d8b09ec46a051464b6859c1306a6351aefd1e5e1b62c76f8580116964be}
+}]\index{Q@{Q}!K@{K}}\index{K@{K}!Q@{Q}}\item[{\em 
+Q\hypertarget{namespace_k_a211862d8b09ec46a051464b6859c1306af09564c9ca56850d4cd6b3319e541aee}{}\label{namespace_k_a211862d8b09ec46a051464b6859c1306af09564c9ca56850d4cd6b3319e541aee}
+}]\index{q@{q}!K@{K}}\index{K@{K}!q@{q}}\item[{\em 
+q\hypertarget{namespace_k_a211862d8b09ec46a051464b6859c1306a7694f4a66316e53c8cdd9d9954bd611d}{}\label{namespace_k_a211862d8b09ec46a051464b6859c1306a7694f4a66316e53c8cdd9d9954bd611d}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 28 of file km.\+h.
+
+\index{K@{K}!m\+Matter@{m\+Matter}}
+\index{m\+Matter@{m\+Matter}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Matter}{mMatter}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Matter} \+: unsigned char\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73d}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73d}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Fair\+Value@{Fair\+Value}!K@{K}}\index{K@{K}!Fair\+Value@{Fair\+Value}}\item[{\em 
+Fair\+Value\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da95c17992a2bcf98203f6a1048774b1f7}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da95c17992a2bcf98203f6a1048774b1f7}
+}]\index{Quote@{Quote}!K@{K}}\index{K@{K}!Quote@{Quote}}\item[{\em 
+Quote\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac48e929b2b1eabba2ba036884433345e}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac48e929b2b1eabba2ba036884433345e}
+}]\index{Active\+Subscription@{Active\+Subscription}!K@{K}}\index{K@{K}!Active\+Subscription@{Active\+Subscription}}\item[{\em 
+Active\+Subscription\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daf18f5fdb8e039d60196b4065580640b7}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daf18f5fdb8e039d60196b4065580640b7}
+}]\index{Connectivity@{Connectivity}!K@{K}}\index{K@{K}!Connectivity@{Connectivity}}\item[{\em 
+Connectivity\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da9bd9d0ebc081bd74f5bef4e136bb1aed}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da9bd9d0ebc081bd74f5bef4e136bb1aed}
+}]\index{Market\+Data@{Market\+Data}!K@{K}}\index{K@{K}!Market\+Data@{Market\+Data}}\item[{\em 
+Market\+Data\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac2230c6e4d01b8865ebc4ad0aef9db94}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac2230c6e4d01b8865ebc4ad0aef9db94}
+}]\index{Quoting\+Parameters@{Quoting\+Parameters}!K@{K}}\index{K@{K}!Quoting\+Parameters@{Quoting\+Parameters}}\item[{\em 
+Quoting\+Parameters\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daac974900d8b102bac26cc80ab192f8fb}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daac974900d8b102bac26cc80ab192f8fb}
+}]\index{Safety\+Settings@{Safety\+Settings}!K@{K}}\index{K@{K}!Safety\+Settings@{Safety\+Settings}}\item[{\em 
+Safety\+Settings\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dada6fe8bd0dd6e070b6638a40fed954e2}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dada6fe8bd0dd6e070b6638a40fed954e2}
+}]\index{Product@{Product}!K@{K}}\index{K@{K}!Product@{Product}}\item[{\em 
+Product\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dadeb10517653c255364175796ace3553f}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dadeb10517653c255364175796ace3553f}
+}]\index{Order\+Status\+Reports@{Order\+Status\+Reports}!K@{K}}\index{K@{K}!Order\+Status\+Reports@{Order\+Status\+Reports}}\item[{\em 
+Order\+Status\+Reports\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daef06507b3899c1e8b810bb8cbeba2b76}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daef06507b3899c1e8b810bb8cbeba2b76}
+}]\index{Product\+Advertisement@{Product\+Advertisement}!K@{K}}\index{K@{K}!Product\+Advertisement@{Product\+Advertisement}}\item[{\em 
+Product\+Advertisement\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da13728e0c13d8f5168df144b86053ba3c}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da13728e0c13d8f5168df144b86053ba3c}
+}]\index{Application\+State@{Application\+State}!K@{K}}\index{K@{K}!Application\+State@{Application\+State}}\item[{\em 
+Application\+State\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da06d51239dde617fbf765978bd622115c}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da06d51239dde617fbf765978bd622115c}
+}]\index{Notepad@{Notepad}!K@{K}}\index{K@{K}!Notepad@{Notepad}}\item[{\em 
+Notepad\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dad47922653f65611f6f38d4eef7b93e61}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dad47922653f65611f6f38d4eef7b93e61}
+}]\index{Toggle\+Settings@{Toggle\+Settings}!K@{K}}\index{K@{K}!Toggle\+Settings@{Toggle\+Settings}}\item[{\em 
+Toggle\+Settings\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da24d3ff5461155ee60f97c12c3cb38622}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da24d3ff5461155ee60f97c12c3cb38622}
+}]\index{Position@{Position}!K@{K}}\index{K@{K}!Position@{Position}}\item[{\em 
+Position\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da52f5e0bc3859bc5f5e25130b6c7e8881}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da52f5e0bc3859bc5f5e25130b6c7e8881}
+}]\index{Submit\+New\+Order@{Submit\+New\+Order}!K@{K}}\index{K@{K}!Submit\+New\+Order@{Submit\+New\+Order}}\item[{\em 
+Submit\+New\+Order\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daaf1815bda3e84b3854a3b0d697437590}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daaf1815bda3e84b3854a3b0d697437590}
+}]\index{Cancel\+Order@{Cancel\+Order}!K@{K}}\index{K@{K}!Cancel\+Order@{Cancel\+Order}}\item[{\em 
+Cancel\+Order\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da80d0877777fae74f6486c79734cb4643}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da80d0877777fae74f6486c79734cb4643}
+}]\index{Market\+Trade@{Market\+Trade}!K@{K}}\index{K@{K}!Market\+Trade@{Market\+Trade}}\item[{\em 
+Market\+Trade\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da3aac00a7768e3c27223f6bebe8675380}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da3aac00a7768e3c27223f6bebe8675380}
+}]\index{Trades@{Trades}!K@{K}}\index{K@{K}!Trades@{Trades}}\item[{\em 
+Trades\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da18da2603c92b826445472937933895e5}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da18da2603c92b826445472937933895e5}
+}]\index{External\+Valuation@{External\+Valuation}!K@{K}}\index{K@{K}!External\+Valuation@{External\+Valuation}}\item[{\em 
+External\+Valuation\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daa47103a2cc61c37ef564115155eb5a1b}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73daa47103a2cc61c37ef564115155eb5a1b}
+}]\index{Quote\+Status@{Quote\+Status}!K@{K}}\index{K@{K}!Quote\+Status@{Quote\+Status}}\item[{\em 
+Quote\+Status\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da87c2649b2d5af994788d90af72bc3a9c}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da87c2649b2d5af994788d90af72bc3a9c}
+}]\index{Target\+Base\+Position@{Target\+Base\+Position}!K@{K}}\index{K@{K}!Target\+Base\+Position@{Target\+Base\+Position}}\item[{\em 
+Target\+Base\+Position\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dabe5c6be5c4decaf0b568f57bde929b6e}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dabe5c6be5c4decaf0b568f57bde929b6e}
+}]\index{Trade\+Safety\+Value@{Trade\+Safety\+Value}!K@{K}}\index{K@{K}!Trade\+Safety\+Value@{Trade\+Safety\+Value}}\item[{\em 
+Trade\+Safety\+Value\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da3143c73288384c4f3a490f6f34bb13d1}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da3143c73288384c4f3a490f6f34bb13d1}
+}]\index{Cancel\+All\+Orders@{Cancel\+All\+Orders}!K@{K}}\index{K@{K}!Cancel\+All\+Orders@{Cancel\+All\+Orders}}\item[{\em 
+Cancel\+All\+Orders\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da6c19795cf93135bf16da1fab6f9cba0e}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da6c19795cf93135bf16da1fab6f9cba0e}
+}]\index{Clean\+All\+Closed\+Trades@{Clean\+All\+Closed\+Trades}!K@{K}}\index{K@{K}!Clean\+All\+Closed\+Trades@{Clean\+All\+Closed\+Trades}}\item[{\em 
+Clean\+All\+Closed\+Trades\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da6c4ce2d599005fa9492740a337698cbe}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da6c4ce2d599005fa9492740a337698cbe}
+}]\index{Clean\+All\+Trades@{Clean\+All\+Trades}!K@{K}}\index{K@{K}!Clean\+All\+Trades@{Clean\+All\+Trades}}\item[{\em 
+Clean\+All\+Trades\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da719380cf4b51f1b6f511440e6d486b92}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da719380cf4b51f1b6f511440e6d486b92}
+}]\index{Clean\+Trade@{Clean\+Trade}!K@{K}}\index{K@{K}!Clean\+Trade@{Clean\+Trade}}\item[{\em 
+Clean\+Trade\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac8ac95f3aeb53cabf4e9c847e13145c3}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac8ac95f3aeb53cabf4e9c847e13145c3}
+}]\index{Trades\+Chart@{Trades\+Chart}!K@{K}}\index{K@{K}!Trades\+Chart@{Trades\+Chart}}\item[{\em 
+Trades\+Chart\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dabf01452e31130adbd0472aad7ab1fe69}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dabf01452e31130adbd0472aad7ab1fe69}
+}]\index{Wallet\+Chart@{Wallet\+Chart}!K@{K}}\index{K@{K}!Wallet\+Chart@{Wallet\+Chart}}\item[{\em 
+Wallet\+Chart\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dadcaaff7eb89d9559a14ee9e0ce2648b3}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dadcaaff7eb89d9559a14ee9e0ce2648b3}
+}]\index{E\+W\+M\+A\+Chart@{E\+W\+M\+A\+Chart}!K@{K}}\index{K@{K}!E\+W\+M\+A\+Chart@{E\+W\+M\+A\+Chart}}\item[{\em 
+E\+W\+M\+A\+Chart\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac68b9ff55f400f5dd9adcd7a3f5372e4}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73dac68b9ff55f400f5dd9adcd7a3f5372e4}
+}]\index{Market\+Data\+Long\+Term@{Market\+Data\+Long\+Term}!K@{K}}\index{K@{K}!Market\+Data\+Long\+Term@{Market\+Data\+Long\+Term}}\item[{\em 
+Market\+Data\+Long\+Term\hypertarget{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da5b1db54b38dd6c252bda6e022ee26d04}{}\label{namespace_k_a06e0333f0bcd3fc79835735bb9cda73da5b1db54b38dd6c252bda6e022ee26d04}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 30 of file km.\+h.
+
+\index{K@{K}!m\+Order\+Type@{m\+Order\+Type}}
+\index{m\+Order\+Type@{m\+Order\+Type}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Order\+Type}{mOrderType}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Order\+Type} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a131435180aff10fab1bf3da09af62b0d}{}\label{namespace_k_a131435180aff10fab1bf3da09af62b0d}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Limit@{Limit}!K@{K}}\index{K@{K}!Limit@{Limit}}\item[{\em 
+Limit\hypertarget{namespace_k_a131435180aff10fab1bf3da09af62b0da80d2677cf518f4d04320042f4ea6c146}{}\label{namespace_k_a131435180aff10fab1bf3da09af62b0da80d2677cf518f4d04320042f4ea6c146}
+}]\index{Market@{Market}!K@{K}}\index{K@{K}!Market@{Market}}\item[{\em 
+Market\hypertarget{namespace_k_a131435180aff10fab1bf3da09af62b0da31840a66a8d6d223e5b0540138768838}{}\label{namespace_k_a131435180aff10fab1bf3da09af62b0da31840a66a8d6d223e5b0540138768838}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 16 of file km.\+h.
+
+\index{K@{K}!m\+P\+Div\+Mode@{m\+P\+Div\+Mode}}
+\index{m\+P\+Div\+Mode@{m\+P\+Div\+Mode}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+P\+Div\+Mode}{mPDivMode}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+P\+Div\+Mode} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7}{}\label{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Manual@{Manual}!K@{K}}\index{K@{K}!Manual@{Manual}}\item[{\em 
+Manual\hypertarget{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7ae1ba155a9f2e8c3be94020eef32a0301}{}\label{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7ae1ba155a9f2e8c3be94020eef32a0301}
+}]\index{Linear@{Linear}!K@{K}}\index{K@{K}!Linear@{Linear}}\item[{\em 
+Linear\hypertarget{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a32a843da6ea40ab3b17a3421ccdf671b}{}\label{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a32a843da6ea40ab3b17a3421ccdf671b}
+}]\index{Sine@{Sine}!K@{K}}\index{K@{K}!Sine@{Sine}}\item[{\em 
+Sine\hypertarget{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a6ca9e2d793f678aba7c1b19526592a46}{}\label{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a6ca9e2d793f678aba7c1b19526592a46}
+}]\index{S\+Q\+RT@{S\+Q\+RT}!K@{K}}\index{K@{K}!S\+Q\+RT@{S\+Q\+RT}}\item[{\em 
+S\+Q\+RT\hypertarget{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a36875f2500a09ee35d0bb7eb8c0b91b0}{}\label{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7a36875f2500a09ee35d0bb7eb8c0b91b0}
+}]\index{Switch@{Switch}!K@{K}}\index{K@{K}!Switch@{Switch}}\item[{\em 
+Switch\hypertarget{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7abbc155fb2b111bf61c4f5ff892915e6b}{}\label{namespace_k_ac928319d6f2b7d9709cd3ca9fa6cb5a7abbc155fb2b111bf61c4f5ff892915e6b}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 24 of file km.\+h.
+
+\index{K@{K}!m\+Ping\+At@{m\+Ping\+At}}
+\index{m\+Ping\+At@{m\+Ping\+At}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Ping\+At}{mPingAt}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Ping\+At} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667c}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667c}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Both\+Sides@{Both\+Sides}!K@{K}}\index{K@{K}!Both\+Sides@{Both\+Sides}}\item[{\em 
+Both\+Sides\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667cad20455e0ed8edbd95fbbb7dff3d61503}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667cad20455e0ed8edbd95fbbb7dff3d61503}
+}]\index{Bid\+Side@{Bid\+Side}!K@{K}}\index{K@{K}!Bid\+Side@{Bid\+Side}}\item[{\em 
+Bid\+Side\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca50d6b07d51e9c2741ce22c2ed476e018}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca50d6b07d51e9c2741ce22c2ed476e018}
+}]\index{Ask\+Side@{Ask\+Side}!K@{K}}\index{K@{K}!Ask\+Side@{Ask\+Side}}\item[{\em 
+Ask\+Side\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca29381a34d014b448d3316e216610d1ce}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca29381a34d014b448d3316e216610d1ce}
+}]\index{Depleted\+Side@{Depleted\+Side}!K@{K}}\index{K@{K}!Depleted\+Side@{Depleted\+Side}}\item[{\em 
+Depleted\+Side\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667cac2f26a4dd047de7d95959ab8bdb109f4}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667cac2f26a4dd047de7d95959ab8bdb109f4}
+}]\index{Depleted\+Bid\+Side@{Depleted\+Bid\+Side}!K@{K}}\index{K@{K}!Depleted\+Bid\+Side@{Depleted\+Bid\+Side}}\item[{\em 
+Depleted\+Bid\+Side\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca4063c4f19b53c5df60ae4c05c9dd9a54}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca4063c4f19b53c5df60ae4c05c9dd9a54}
+}]\index{Depleted\+Ask\+Side@{Depleted\+Ask\+Side}!K@{K}}\index{K@{K}!Depleted\+Ask\+Side@{Depleted\+Ask\+Side}}\item[{\em 
+Depleted\+Ask\+Side\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667caae428d5bdebd6c7b80f502858b11c8ba}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667caae428d5bdebd6c7b80f502858b11c8ba}
+}]\index{Stop\+Pings@{Stop\+Pings}!K@{K}}\index{K@{K}!Stop\+Pings@{Stop\+Pings}}\item[{\em 
+Stop\+Pings\hypertarget{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca1ec3d10862ac7f958aad8b62285b08e9}{}\label{namespace_k_a9d7dedf4873c0cda3ab0c919395b667ca1ec3d10862ac7f958aad8b62285b08e9}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 17 of file km.\+h.
+
+\index{K@{K}!m\+Pong\+At@{m\+Pong\+At}}
+\index{m\+Pong\+At@{m\+Pong\+At}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Pong\+At}{mPongAt}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Pong\+At} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013f}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013f}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Short\+Ping\+Fair@{Short\+Ping\+Fair}!K@{K}}\index{K@{K}!Short\+Ping\+Fair@{Short\+Ping\+Fair}}\item[{\em 
+Short\+Ping\+Fair\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fa102eaf65c3a5f9be2898b918b50c0a09}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fa102eaf65c3a5f9be2898b918b50c0a09}
+}]\index{Average\+Ping\+Fair@{Average\+Ping\+Fair}!K@{K}}\index{K@{K}!Average\+Ping\+Fair@{Average\+Ping\+Fair}}\item[{\em 
+Average\+Ping\+Fair\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fae839dfe48819b12d62924214b21c41bb}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fae839dfe48819b12d62924214b21c41bb}
+}]\index{Long\+Ping\+Fair@{Long\+Ping\+Fair}!K@{K}}\index{K@{K}!Long\+Ping\+Fair@{Long\+Ping\+Fair}}\item[{\em 
+Long\+Ping\+Fair\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faea50308be4005a5288ab9ca9835eb264}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faea50308be4005a5288ab9ca9835eb264}
+}]\index{Short\+Ping\+Aggressive@{Short\+Ping\+Aggressive}!K@{K}}\index{K@{K}!Short\+Ping\+Aggressive@{Short\+Ping\+Aggressive}}\item[{\em 
+Short\+Ping\+Aggressive\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faf6faf434c7dc6b4c4c2c25e80910be93}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faf6faf434c7dc6b4c4c2c25e80910be93}
+}]\index{Average\+Ping\+Aggressive@{Average\+Ping\+Aggressive}!K@{K}}\index{K@{K}!Average\+Ping\+Aggressive@{Average\+Ping\+Aggressive}}\item[{\em 
+Average\+Ping\+Aggressive\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fa7ddcfa83b293abeb8713b2ce5b37ed67}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013fa7ddcfa83b293abeb8713b2ce5b37ed67}
+}]\index{Long\+Ping\+Aggressive@{Long\+Ping\+Aggressive}!K@{K}}\index{K@{K}!Long\+Ping\+Aggressive@{Long\+Ping\+Aggressive}}\item[{\em 
+Long\+Ping\+Aggressive\hypertarget{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faef372043d682faaebb32c65219ae0b0d}{}\label{namespace_k_a6bd1ffa01a02e9cf1302f02774ba013faef372043d682faaebb32c65219ae0b0d}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 18 of file km.\+h.
+
+\index{K@{K}!m\+Portal@{m\+Portal}}
+\index{m\+Portal@{m\+Portal}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Portal}{mPortal}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Portal} \+: unsigned char\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_ab6a388ee7614dc94c1d933688d49b3bb}{}\label{namespace_k_ab6a388ee7614dc94c1d933688d49b3bb}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Hello@{Hello}!K@{K}}\index{K@{K}!Hello@{Hello}}\item[{\em 
+Hello\hypertarget{namespace_k_ab6a388ee7614dc94c1d933688d49b3bba8b1a9953c4611296a827abf8c47804d7}{}\label{namespace_k_ab6a388ee7614dc94c1d933688d49b3bba8b1a9953c4611296a827abf8c47804d7}
+}]\index{Kiss@{Kiss}!K@{K}}\index{K@{K}!Kiss@{Kiss}}\item[{\em 
+Kiss\hypertarget{namespace_k_ab6a388ee7614dc94c1d933688d49b3bbad61fad2618362cf5c2392d4880e3f4b4}{}\label{namespace_k_ab6a388ee7614dc94c1d933688d49b3bbad61fad2618362cf5c2392d4880e3f4b4}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 29 of file km.\+h.
+
+\index{K@{K}!m\+Quote\+State@{m\+Quote\+State}}
+\index{m\+Quote\+State@{m\+Quote\+State}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Quote\+State}{mQuoteState}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Quote\+State} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Live@{Live}!K@{K}}\index{K@{K}!Live@{Live}}\item[{\em 
+Live\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736a955ad3298db330b5ee880c2c9e6f23a0}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736a955ad3298db330b5ee880c2c9e6f23a0}
+}]\index{Disconnected@{Disconnected}!K@{K}}\index{K@{K}!Disconnected@{Disconnected}}\item[{\em 
+Disconnected\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736aef70e46fd3bbc21e3e1f0b6815e750c0}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736aef70e46fd3bbc21e3e1f0b6815e750c0}
+}]\index{Disabled\+Quotes@{Disabled\+Quotes}!K@{K}}\index{K@{K}!Disabled\+Quotes@{Disabled\+Quotes}}\item[{\em 
+Disabled\+Quotes\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736a152243c591927afa2121aea8911cccd2}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736a152243c591927afa2121aea8911cccd2}
+}]\index{Missing\+Data@{Missing\+Data}!K@{K}}\index{K@{K}!Missing\+Data@{Missing\+Data}}\item[{\em 
+Missing\+Data\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736afe155956e8f33e5cffa82cc86a36afbd}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736afe155956e8f33e5cffa82cc86a36afbd}
+}]\index{Unknown\+Held@{Unknown\+Held}!K@{K}}\index{K@{K}!Unknown\+Held@{Unknown\+Held}}\item[{\em 
+Unknown\+Held\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736aa6dd615eded3f865e7f58d646d053222}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736aa6dd615eded3f865e7f58d646d053222}
+}]\index{T\+B\+P\+Held@{T\+B\+P\+Held}!K@{K}}\index{K@{K}!T\+B\+P\+Held@{T\+B\+P\+Held}}\item[{\em 
+T\+B\+P\+Held\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736aa082cb41967bd1a64dca9fd7127cb7cc}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736aa082cb41967bd1a64dca9fd7127cb7cc}
+}]\index{Max\+Trades\+Seconds@{Max\+Trades\+Seconds}!K@{K}}\index{K@{K}!Max\+Trades\+Seconds@{Max\+Trades\+Seconds}}\item[{\em 
+Max\+Trades\+Seconds\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736a5faf2570a6605866bf01a5675538e511}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736a5faf2570a6605866bf01a5675538e511}
+}]\index{Waiting\+Ping@{Waiting\+Ping}!K@{K}}\index{K@{K}!Waiting\+Ping@{Waiting\+Ping}}\item[{\em 
+Waiting\+Ping\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736a9642b3e14fbadab3e7acfbd02cd8cc73}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736a9642b3e14fbadab3e7acfbd02cd8cc73}
+}]\index{Depleted\+Funds@{Depleted\+Funds}!K@{K}}\index{K@{K}!Depleted\+Funds@{Depleted\+Funds}}\item[{\em 
+Depleted\+Funds\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736ac390c66e7e7a9d6c107cc9f63d16fb77}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736ac390c66e7e7a9d6c107cc9f63d16fb77}
+}]\index{Crossed@{Crossed}!K@{K}}\index{K@{K}!Crossed@{Crossed}}\item[{\em 
+Crossed\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736a23709652ceedf22aad4bbb6a355b83e2}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736a23709652ceedf22aad4bbb6a355b83e2}
+}]\index{Up\+Trend\+Held@{Up\+Trend\+Held}!K@{K}}\index{K@{K}!Up\+Trend\+Held@{Up\+Trend\+Held}}\item[{\em 
+Up\+Trend\+Held\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736abe667931a6504eeaed8bc383e0176c80}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736abe667931a6504eeaed8bc383e0176c80}
+}]\index{Down\+Trend\+Held@{Down\+Trend\+Held}!K@{K}}\index{K@{K}!Down\+Trend\+Held@{Down\+Trend\+Held}}\item[{\em 
+Down\+Trend\+Held\hypertarget{namespace_k_a76b6774ff9252e574d375a353ecf6736a2d25ded63a54e99883cace0cc0877cd8}{}\label{namespace_k_a76b6774ff9252e574d375a353ecf6736a2d25ded63a54e99883cace0cc0877cd8}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 21 of file km.\+h.
+
+\index{K@{K}!m\+Quoting\+Mode@{m\+Quoting\+Mode}}
+\index{m\+Quoting\+Mode@{m\+Quoting\+Mode}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Quoting\+Mode}{mQuotingMode}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Quoting\+Mode} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Top@{Top}!K@{K}}\index{K@{K}!Top@{Top}}\item[{\em 
+Top\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9aa4ffdcf0dc1f31b9acaf295d75b51d00}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9aa4ffdcf0dc1f31b9acaf295d75b51d00}
+}]\index{Mid@{Mid}!K@{K}}\index{K@{K}!Mid@{Mid}}\item[{\em 
+Mid\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a55c6b09cbca39ef0cdb728eb112a5049}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a55c6b09cbca39ef0cdb728eb112a5049}
+}]\index{Join@{Join}!K@{K}}\index{K@{K}!Join@{Join}}\item[{\em 
+Join\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9aa286d9991c6a547ae25a5f5216164b8f}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9aa286d9991c6a547ae25a5f5216164b8f}
+}]\index{Inverse\+Join@{Inverse\+Join}!K@{K}}\index{K@{K}!Inverse\+Join@{Inverse\+Join}}\item[{\em 
+Inverse\+Join\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a56c381ec4d4882fef3875344e31366c4}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a56c381ec4d4882fef3875344e31366c4}
+}]\index{Inverse\+Top@{Inverse\+Top}!K@{K}}\index{K@{K}!Inverse\+Top@{Inverse\+Top}}\item[{\em 
+Inverse\+Top\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9ad405435761161126203a203ceceb2bf6}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9ad405435761161126203a203ceceb2bf6}
+}]\index{Hamelin\+Rat@{Hamelin\+Rat}!K@{K}}\index{K@{K}!Hamelin\+Rat@{Hamelin\+Rat}}\item[{\em 
+Hamelin\+Rat\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9ade25a4b5bc9f51863b89a863fc98fdc3}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9ade25a4b5bc9f51863b89a863fc98fdc3}
+}]\index{Depth@{Depth}!K@{K}}\index{K@{K}!Depth@{Depth}}\item[{\em 
+Depth\hypertarget{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a675056ad1441b6375b2c5abd48c27ef1}{}\label{namespace_k_aad47eca41d4abcf27209f4b673e7b9e9a675056ad1441b6375b2c5abd48c27ef1}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 19 of file km.\+h.
+
+\index{K@{K}!m\+Quoting\+Safety@{m\+Quoting\+Safety}}
+\index{m\+Quoting\+Safety@{m\+Quoting\+Safety}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Quoting\+Safety}{mQuotingSafety}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Quoting\+Safety} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a89330b32d78089edeaa5bc6fe48d605d}{}\label{namespace_k_a89330b32d78089edeaa5bc6fe48d605d}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Off@{Off}!K@{K}}\index{K@{K}!Off@{Off}}\item[{\em 
+Off\hypertarget{namespace_k_a89330b32d78089edeaa5bc6fe48d605dad15305d7a4e34e02489c74a5ef542f36}{}\label{namespace_k_a89330b32d78089edeaa5bc6fe48d605dad15305d7a4e34e02489c74a5ef542f36}
+}]\index{Ping\+Pong@{Ping\+Pong}!K@{K}}\index{K@{K}!Ping\+Pong@{Ping\+Pong}}\item[{\em 
+Ping\+Pong\hypertarget{namespace_k_a89330b32d78089edeaa5bc6fe48d605da99e52704462d3580db3528cad7ea9660}{}\label{namespace_k_a89330b32d78089edeaa5bc6fe48d605da99e52704462d3580db3528cad7ea9660}
+}]\index{Boomerang@{Boomerang}!K@{K}}\index{K@{K}!Boomerang@{Boomerang}}\item[{\em 
+Boomerang\hypertarget{namespace_k_a89330b32d78089edeaa5bc6fe48d605da8c9d96b1ef82662dd41a42e8528876b6}{}\label{namespace_k_a89330b32d78089edeaa5bc6fe48d605da8c9d96b1ef82662dd41a42e8528876b6}
+}]\index{A\+K47@{A\+K47}!K@{K}}\index{K@{K}!A\+K47@{A\+K47}}\item[{\em 
+A\+K47\hypertarget{namespace_k_a89330b32d78089edeaa5bc6fe48d605da412070b7feb8fc0fe4859d864cf83596}{}\label{namespace_k_a89330b32d78089edeaa5bc6fe48d605da412070b7feb8fc0fe4859d864cf83596}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 20 of file km.\+h.
+
+\index{K@{K}!m\+Side@{m\+Side}}
+\index{m\+Side@{m\+Side}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Side}{mSide}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Side} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}{}\label{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Bid@{Bid}!K@{K}}\index{K@{K}!Bid@{Bid}}\item[{\em 
+Bid\hypertarget{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94ae36ba1e187ae2b3ebcfd0a4c68367caf}{}\label{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94ae36ba1e187ae2b3ebcfd0a4c68367caf}
+}]\index{Ask@{Ask}!K@{K}}\index{K@{K}!Ask@{Ask}}\item[{\em 
+Ask\hypertarget{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94aa0b271a9d8aa8e7473922164d6a1c03c}{}\label{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94aa0b271a9d8aa8e7473922164d6a1c03c}
+}]\index{Both@{Both}!K@{K}}\index{K@{K}!Both@{Both}}\item[{\em 
+Both\hypertarget{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94a130c5b3473c57faa76e2a1c54e26f88e}{}\label{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94a130c5b3473c57faa76e2a1c54e26f88e}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 14 of file km.\+h.
+
+\index{K@{K}!m\+S\+OP@{m\+S\+OP}}
+\index{m\+S\+OP@{m\+S\+OP}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+S\+OP}{mSOP}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+S\+OP} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a2f7964509b276df1811f64989ee56ca5}{}\label{namespace_k_a2f7964509b276df1811f64989ee56ca5}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Off@{Off}!K@{K}}\index{K@{K}!Off@{Off}}\item[{\em 
+Off\hypertarget{namespace_k_a2f7964509b276df1811f64989ee56ca5ad15305d7a4e34e02489c74a5ef542f36}{}\label{namespace_k_a2f7964509b276df1811f64989ee56ca5ad15305d7a4e34e02489c74a5ef542f36}
+}]\index{Trades@{Trades}!K@{K}}\index{K@{K}!Trades@{Trades}}\item[{\em 
+Trades\hypertarget{namespace_k_a2f7964509b276df1811f64989ee56ca5a18da2603c92b826445472937933895e5}{}\label{namespace_k_a2f7964509b276df1811f64989ee56ca5a18da2603c92b826445472937933895e5}
+}]\index{Size@{Size}!K@{K}}\index{K@{K}!Size@{Size}}\item[{\em 
+Size\hypertarget{namespace_k_a2f7964509b276df1811f64989ee56ca5a6f6cb72d544962fa333e2e34ce64f719}{}\label{namespace_k_a2f7964509b276df1811f64989ee56ca5a6f6cb72d544962fa333e2e34ce64f719}
+}]\index{Trades\+Size@{Trades\+Size}!K@{K}}\index{K@{K}!Trades\+Size@{Trades\+Size}}\item[{\em 
+Trades\+Size\hypertarget{namespace_k_a2f7964509b276df1811f64989ee56ca5a307b9b6d2f7f31e05110e3391dabb83e}{}\label{namespace_k_a2f7964509b276df1811f64989ee56ca5a307b9b6d2f7f31e05110e3391dabb83e}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 26 of file km.\+h.
+
+\index{K@{K}!m\+Status@{m\+Status}}
+\index{m\+Status@{m\+Status}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Status}{mStatus}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Status} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a9ca92b450f3b1738c485770d136ac9e0}{}\label{namespace_k_a9ca92b450f3b1738c485770d136ac9e0}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{New@{New}!K@{K}}\index{K@{K}!New@{New}}\item[{\em 
+New\hypertarget{namespace_k_a9ca92b450f3b1738c485770d136ac9e0a03c2e7e41ffc181a4e84080b4710e81e}{}\label{namespace_k_a9ca92b450f3b1738c485770d136ac9e0a03c2e7e41ffc181a4e84080b4710e81e}
+}]\index{Working@{Working}!K@{K}}\index{K@{K}!Working@{Working}}\item[{\em 
+Working\hypertarget{namespace_k_a9ca92b450f3b1738c485770d136ac9e0a829eadc8e29caab50cc26bc6a451a1f1}{}\label{namespace_k_a9ca92b450f3b1738c485770d136ac9e0a829eadc8e29caab50cc26bc6a451a1f1}
+}]\index{Complete@{Complete}!K@{K}}\index{K@{K}!Complete@{Complete}}\item[{\em 
+Complete\hypertarget{namespace_k_a9ca92b450f3b1738c485770d136ac9e0aae94f80b3ce82062a5dd7815daa04f9d}{}\label{namespace_k_a9ca92b450f3b1738c485770d136ac9e0aae94f80b3ce82062a5dd7815daa04f9d}
+}]\index{Cancelled@{Cancelled}!K@{K}}\index{K@{K}!Cancelled@{Cancelled}}\item[{\em 
+Cancelled\hypertarget{namespace_k_a9ca92b450f3b1738c485770d136ac9e0aa149e85a44aeec9140e92733d9ed694e}{}\label{namespace_k_a9ca92b450f3b1738c485770d136ac9e0aa149e85a44aeec9140e92733d9ed694e}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 13 of file km.\+h.
+
+\index{K@{K}!m\+S\+T\+D\+EV@{m\+S\+T\+D\+EV}}
+\index{m\+S\+T\+D\+EV@{m\+S\+T\+D\+EV}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+S\+T\+D\+EV}{mSTDEV}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+S\+T\+D\+EV} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Off@{Off}!K@{K}}\index{K@{K}!Off@{Off}}\item[{\em 
+Off\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636ad15305d7a4e34e02489c74a5ef542f36}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636ad15305d7a4e34e02489c74a5ef542f36}
+}]\index{On\+FV@{On\+FV}!K@{K}}\index{K@{K}!On\+FV@{On\+FV}}\item[{\em 
+On\+FV\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636aba195c1980354f4259bcb71e0ec84790}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636aba195c1980354f4259bcb71e0ec84790}
+}]\index{On\+F\+V\+A\+P\+R\+Off@{On\+F\+V\+A\+P\+R\+Off}!K@{K}}\index{K@{K}!On\+F\+V\+A\+P\+R\+Off@{On\+F\+V\+A\+P\+R\+Off}}\item[{\em 
+On\+F\+V\+A\+P\+R\+Off\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636a2f95269c5b49e4c173f4434c77a5c44e}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636a2f95269c5b49e4c173f4434c77a5c44e}
+}]\index{On\+Tops@{On\+Tops}!K@{K}}\index{K@{K}!On\+Tops@{On\+Tops}}\item[{\em 
+On\+Tops\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636a3cfe59668dcf743c426719e30e92a11f}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636a3cfe59668dcf743c426719e30e92a11f}
+}]\index{On\+Tops\+A\+P\+R\+Off@{On\+Tops\+A\+P\+R\+Off}!K@{K}}\index{K@{K}!On\+Tops\+A\+P\+R\+Off@{On\+Tops\+A\+P\+R\+Off}}\item[{\em 
+On\+Tops\+A\+P\+R\+Off\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636aca34048591922a10fc48621fc379aa11}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636aca34048591922a10fc48621fc379aa11}
+}]\index{On\+Top@{On\+Top}!K@{K}}\index{K@{K}!On\+Top@{On\+Top}}\item[{\em 
+On\+Top\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636ae1eab7ec616da449c7890bcd3f85bfa2}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636ae1eab7ec616da449c7890bcd3f85bfa2}
+}]\index{On\+Top\+A\+P\+R\+Off@{On\+Top\+A\+P\+R\+Off}!K@{K}}\index{K@{K}!On\+Top\+A\+P\+R\+Off@{On\+Top\+A\+P\+R\+Off}}\item[{\em 
+On\+Top\+A\+P\+R\+Off\hypertarget{namespace_k_a648db17031757556a30a6ba51a9ce636a173c34596b864ac314738d30f204a4ec}{}\label{namespace_k_a648db17031757556a30a6ba51a9ce636a173c34596b864ac314738d30f204a4ec}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 27 of file km.\+h.
+
+\index{K@{K}!m\+Time\+In\+Force@{m\+Time\+In\+Force}}
+\index{m\+Time\+In\+Force@{m\+Time\+In\+Force}!K@{K}}
+\subsubsection[{\texorpdfstring{m\+Time\+In\+Force}{mTimeInForce}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf m\+Time\+In\+Force} \+: unsigned int\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44}{}\label{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{I\+OC@{I\+OC}!K@{K}}\index{K@{K}!I\+OC@{I\+OC}}\item[{\em 
+I\+OC\hypertarget{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a7245a636843f38ae56d5862d502a4303}{}\label{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a7245a636843f38ae56d5862d502a4303}
+}]\index{F\+OK@{F\+OK}!K@{K}}\index{K@{K}!F\+OK@{F\+OK}}\item[{\em 
+F\+OK\hypertarget{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a9650d9d6d673551228bb1042f482459f}{}\label{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a9650d9d6d673551228bb1042f482459f}
+}]\index{G\+TC@{G\+TC}!K@{K}}\index{K@{K}!G\+TC@{G\+TC}}\item[{\em 
+G\+TC\hypertarget{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a87b20a4d7f9fae0a5b12c2b9c680584b}{}\label{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44a87b20a4d7f9fae0a5b12c2b9c680584b}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 15 of file km.\+h.
+
+
+
+\subsection{Variable Documentation}
+\index{K@{K}!B\+B\+L\+A\+CK@{B\+B\+L\+A\+CK}}
+\index{B\+B\+L\+A\+CK@{B\+B\+L\+A\+CK}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+B\+L\+A\+CK}{BBLACK}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+B\+L\+A\+CK\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;30m\char`\"{}}\hypertarget{namespace_k_a1b5ebfb775cf88920f1beb1b59c80137}{}\label{namespace_k_a1b5ebfb775cf88920f1beb1b59c80137}
+
+
+Definition at line 10 of file sh.\+h.
+
+\index{K@{K}!B\+B\+L\+UE@{B\+B\+L\+UE}}
+\index{B\+B\+L\+UE@{B\+B\+L\+UE}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+B\+L\+UE}{BBLUE}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+B\+L\+UE\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;34m\char`\"{}}\hypertarget{namespace_k_a2fcd49453f10ffd3ccb5aebe30f5d0c0}{}\label{namespace_k_a2fcd49453f10ffd3ccb5aebe30f5d0c0}
+
+
+Definition at line 11 of file sh.\+h.
+
+\index{K@{K}!B\+C\+Y\+AN@{B\+C\+Y\+AN}}
+\index{B\+C\+Y\+AN@{B\+C\+Y\+AN}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+C\+Y\+AN}{BCYAN}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+C\+Y\+AN\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;36m\char`\"{}}\hypertarget{namespace_k_a2c3e50cb34db635087047ef75ab1ca52}{}\label{namespace_k_a2c3e50cb34db635087047ef75ab1ca52}
+
+
+Definition at line 11 of file sh.\+h.
+
+\index{K@{K}!B\+G\+R\+E\+EN@{B\+G\+R\+E\+EN}}
+\index{B\+G\+R\+E\+EN@{B\+G\+R\+E\+EN}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+G\+R\+E\+EN}{BGREEN}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+G\+R\+E\+EN\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;32m\char`\"{}}\hypertarget{namespace_k_aa83d8d71c463813bdbd57fab20312b7d}{}\label{namespace_k_aa83d8d71c463813bdbd57fab20312b7d}
+
+
+Definition at line 10 of file sh.\+h.
+
+\index{K@{K}!B\+P\+U\+R\+P\+LE@{B\+P\+U\+R\+P\+LE}}
+\index{B\+P\+U\+R\+P\+LE@{B\+P\+U\+R\+P\+LE}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+P\+U\+R\+P\+LE}{BPURPLE}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+P\+U\+R\+P\+LE\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;35m\char`\"{}}\hypertarget{namespace_k_adcaba86455bd5bd0cbdeac28c4fced2b}{}\label{namespace_k_adcaba86455bd5bd0cbdeac28c4fced2b}
+
+
+Definition at line 11 of file sh.\+h.
+
+\index{K@{K}!B\+R\+ED@{B\+R\+ED}}
+\index{B\+R\+ED@{B\+R\+ED}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+R\+ED}{BRED}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+R\+ED\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;31m\char`\"{}}\hypertarget{namespace_k_ae09107156acfd00c2e31f049f70b622a}{}\label{namespace_k_ae09107156acfd00c2e31f049f70b622a}
+
+
+Definition at line 10 of file sh.\+h.
+
+\index{K@{K}!B\+W\+H\+I\+TE@{B\+W\+H\+I\+TE}}
+\index{B\+W\+H\+I\+TE@{B\+W\+H\+I\+TE}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+W\+H\+I\+TE}{BWHITE}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+W\+H\+I\+TE\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;37m\char`\"{}}\hypertarget{namespace_k_a723a80b3fad44765a8c6371fd4841609}{}\label{namespace_k_a723a80b3fad44765a8c6371fd4841609}
+
+
+Definition at line 11 of file sh.\+h.
+
+\index{K@{K}!B\+Y\+E\+L\+L\+OW@{B\+Y\+E\+L\+L\+OW}}
+\index{B\+Y\+E\+L\+L\+OW@{B\+Y\+E\+L\+L\+OW}!K@{K}}
+\subsubsection[{\texorpdfstring{B\+Y\+E\+L\+L\+OW}{BYELLOW}}]{\setlength{\rightskip}{0pt plus 5cm}char B\+Y\+E\+L\+L\+OW\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}1;33m\char`\"{}}\hypertarget{namespace_k_aa522b04bcf50df65fd4819d0b46d6664}{}\label{namespace_k_aa522b04bcf50df65fd4819d0b46d6664}
+
+
+Definition at line 10 of file sh.\+h.
+
+\index{K@{K}!ending\+Fn@{ending\+Fn}}
+\index{ending\+Fn@{ending\+Fn}!K@{K}}
+\subsubsection[{\texorpdfstring{ending\+Fn}{endingFn}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$function$<$void()$>$$\ast$$>$ ending\+Fn}\hypertarget{namespace_k_a1c3ecbe3046298af183be61349de6900}{}\label{namespace_k_a1c3ecbe3046298af183be61349de6900}
+
+
+Definition at line 7 of file sh.\+h.
+
+\index{K@{K}!R\+B\+L\+A\+CK@{R\+B\+L\+A\+CK}}
+\index{R\+B\+L\+A\+CK@{R\+B\+L\+A\+CK}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+B\+L\+A\+CK}{RBLACK}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+B\+L\+A\+CK\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;30m\char`\"{}}\hypertarget{namespace_k_a1203c8bea34ade1c1d524b0df5bfdf37}{}\label{namespace_k_a1203c8bea34ade1c1d524b0df5bfdf37}
+
+
+Definition at line 8 of file sh.\+h.
+
+\index{K@{K}!R\+B\+L\+UE@{R\+B\+L\+UE}}
+\index{R\+B\+L\+UE@{R\+B\+L\+UE}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+B\+L\+UE}{RBLUE}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+B\+L\+UE\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;34m\char`\"{}}\hypertarget{namespace_k_a035ca76c4d8abd4253d53e1dfb952368}{}\label{namespace_k_a035ca76c4d8abd4253d53e1dfb952368}
+
+
+Definition at line 9 of file sh.\+h.
+
+\index{K@{K}!R\+C\+Y\+AN@{R\+C\+Y\+AN}}
+\index{R\+C\+Y\+AN@{R\+C\+Y\+AN}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+C\+Y\+AN}{RCYAN}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+C\+Y\+AN\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;36m\char`\"{}}\hypertarget{namespace_k_a816b9af371d1741fead9f73abb978052}{}\label{namespace_k_a816b9af371d1741fead9f73abb978052}
+
+
+Definition at line 9 of file sh.\+h.
+
+\index{K@{K}!R\+G\+R\+E\+EN@{R\+G\+R\+E\+EN}}
+\index{R\+G\+R\+E\+EN@{R\+G\+R\+E\+EN}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+G\+R\+E\+EN}{RGREEN}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+G\+R\+E\+EN\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;32m\char`\"{}}\hypertarget{namespace_k_a9c4858b8b93beb509648e92071d727ca}{}\label{namespace_k_a9c4858b8b93beb509648e92071d727ca}
+
+
+Definition at line 8 of file sh.\+h.
+
+\index{K@{K}!R\+P\+U\+R\+P\+LE@{R\+P\+U\+R\+P\+LE}}
+\index{R\+P\+U\+R\+P\+LE@{R\+P\+U\+R\+P\+LE}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+P\+U\+R\+P\+LE}{RPURPLE}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+P\+U\+R\+P\+LE\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;35m\char`\"{}}\hypertarget{namespace_k_a16f016905667739f3d64b6ab7e4d7f95}{}\label{namespace_k_a16f016905667739f3d64b6ab7e4d7f95}
+
+
+Definition at line 9 of file sh.\+h.
+
+\index{K@{K}!R\+R\+ED@{R\+R\+ED}}
+\index{R\+R\+ED@{R\+R\+ED}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+R\+ED}{RRED}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+R\+ED\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;31m\char`\"{}}\hypertarget{namespace_k_ae976a2e4e900318926db4fa1624bc30a}{}\label{namespace_k_ae976a2e4e900318926db4fa1624bc30a}
+
+
+Definition at line 8 of file sh.\+h.
+
+\index{K@{K}!R\+R\+E\+S\+ET@{R\+R\+E\+S\+ET}}
+\index{R\+R\+E\+S\+ET@{R\+R\+E\+S\+ET}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+R\+E\+S\+ET}{RRESET}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+R\+E\+S\+ET\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0m\char`\"{}}\hypertarget{namespace_k_a610d2184e75b6475eaf1f16700be824e}{}\label{namespace_k_a610d2184e75b6475eaf1f16700be824e}
+
+
+Definition at line 12 of file sh.\+h.
+
+\index{K@{K}!R\+W\+H\+I\+TE@{R\+W\+H\+I\+TE}}
+\index{R\+W\+H\+I\+TE@{R\+W\+H\+I\+TE}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+W\+H\+I\+TE}{RWHITE}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+W\+H\+I\+TE\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;37m\char`\"{}}\hypertarget{namespace_k_a37a06065638319240adf83b5bdfdf313}{}\label{namespace_k_a37a06065638319240adf83b5bdfdf313}
+
+
+Definition at line 9 of file sh.\+h.
+
+\index{K@{K}!R\+Y\+E\+L\+L\+OW@{R\+Y\+E\+L\+L\+OW}}
+\index{R\+Y\+E\+L\+L\+OW@{R\+Y\+E\+L\+L\+OW}!K@{K}}
+\subsubsection[{\texorpdfstring{R\+Y\+E\+L\+L\+OW}{RYELLOW}}]{\setlength{\rightskip}{0pt plus 5cm}char R\+Y\+E\+L\+L\+OW\mbox{[}$\,$\mbox{]} = \char`\"{}\textbackslash{}033\mbox{[}0;33m\char`\"{}}\hypertarget{namespace_k_abd378d9900fa5f1effc177ef1a3eaf88}{}\label{namespace_k_abd378d9900fa5f1effc177ef1a3eaf88}
+
+
+Definition at line 8 of file sh.\+h.
+
+\index{K@{K}!tracelog@{tracelog}}
+\index{tracelog@{tracelog}!K@{K}}
+\subsubsection[{\texorpdfstring{tracelog}{tracelog}}]{\setlength{\rightskip}{0pt plus 5cm}string tracelog}\hypertarget{namespace_k_a8cf9916382d8c2046656233c4422022d}{}\label{namespace_k_a8cf9916382d8c2046656233c4422022d}
+
+
+Definition at line 7 of file ev.\+h.
+

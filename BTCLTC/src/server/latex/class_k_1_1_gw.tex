@@ -1,0 +1,631 @@
+\hypertarget{class_k_1_1_gw}{}\section{Gw Class Reference}
+\label{class_k_1_1_gw}\index{Gw@{Gw}}
+
+
+{\ttfamily \#include $<$km.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \hyperlink{class_k_1_1_gw_aca39965d86b136eea65d98c8797af168}{A} ()=0
+\item 
+virtual void \hyperlink{class_k_1_1_gw_aaa3aac9b11f8b2d0fd549f88c049e7bb}{send} (\hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}{m\+Side}, string, string, \hyperlink{namespace_k_a131435180aff10fab1bf3da09af62b0d}{m\+Order\+Type}, \hyperlink{namespace_k_a290fccb3fc7d447fdbb93a61f6dfba44}{m\+Time\+In\+Force}, bool, \hyperlink{km_8h_ad02a70cba4c52ba2013e5e32ceaeac1c}{m\+Clock})=0
+\item 
+virtual void \hyperlink{class_k_1_1_gw_a20fa6fadc0acc192eec1f324742135ca}{cancel} (\hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{namespace_k_a0b7d0fa0ffc9f87da1d6499cbcee7e94}{m\+Side}, \hyperlink{km_8h_ad02a70cba4c52ba2013e5e32ceaeac1c}{m\+Clock})=0
+\item 
+virtual void \hyperlink{class_k_1_1_gw_af6ee7eacbde6b379b68d954e44f6e549}{close} ()=0
+\item 
+bool \hyperlink{class_k_1_1_gw_ac4c94b7be7f6b0bfe7e42e31d965923c}{wait\+For\+Data} ()
+\item 
+virtual bool \hyperlink{class_k_1_1_gw_ad1293382b9b42a2fb3e1119078f97ca4}{async\+\_\+levels} ()
+\item 
+virtual bool \hyperlink{class_k_1_1_gw_aadf97204c27f5ef667c159182fac5e26}{async\+\_\+trades} ()
+\item 
+virtual bool \hyperlink{class_k_1_1_gw_aae17c049f2524a26e52ba61080b06fda}{async\+\_\+orders} ()
+\item 
+virtual vector$<$ \hyperlink{struct_k_1_1m_order}{m\+Order} $>$ \hyperlink{class_k_1_1_gw_aae707e552babec2a6f663f1c79745206}{sync\+\_\+cancel\+All} ()=0
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_k_1_1_gw}{Gw} $\ast$ \hyperlink{class_k_1_1_gw_a282f7bac1cca98304b43013414a068af}{config} (\hyperlink{km_8h_a0299927fb26276a1e0f4c2b4dedb698e}{m\+Coin\+Id}, \hyperlink{km_8h_a0299927fb26276a1e0f4c2b4dedb698e}{m\+Coin\+Id}, string, int, string, string, string, string, string, string, int, int, int)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+u\+W\+S\+::\+Hub $\ast$ \hyperlink{class_k_1_1_gw_a33b00844a7c4d5c91a4696d71e02bafd}{hub} = nullptr
+\item 
+u\+W\+S\+::\+Group$<$ u\+W\+S\+::\+C\+L\+I\+E\+NT $>$ $\ast$ \hyperlink{class_k_1_1_gw_a57ae195e4262e03d47cad44c3a0b09f1}{gw\+Group} = nullptr
+\item 
+function$<$ void(string)$>$ \hyperlink{class_k_1_1_gw_a45c045408bc39a1e18f99b18505a0859}{log}
+\item 
+function$<$ void(string)$>$ \hyperlink{class_k_1_1_gw_acedf7f89824adaf984f2ff0cbb29961a}{reconnect}
+\item 
+function$<$ void(\hyperlink{struct_k_1_1m_order}{m\+Order})$>$ \hyperlink{class_k_1_1_gw_adf1e832cf66132207c5b97edb28437bf}{ev\+Data\+Order}
+\item 
+function$<$ void(\hyperlink{struct_k_1_1m_trade}{m\+Trade})$>$ \hyperlink{class_k_1_1_gw_a6cdc51ebb4004f0a69afafb623d9d7e0}{ev\+Data\+Trade}
+\item 
+function$<$ void(\hyperlink{struct_k_1_1m_levels}{m\+Levels})$>$ \hyperlink{class_k_1_1_gw_a2d20ec3398210965d042521449f1d890}{ev\+Data\+Levels}
+\item 
+function$<$ void(\hyperlink{struct_k_1_1m_wallets}{m\+Wallets})$>$ \hyperlink{class_k_1_1_gw_ae539d2c47a0e797655fea7dcc8666408}{ev\+Data\+Wallet}
+\item 
+function$<$ void(\hyperlink{namespace_k_a3da250819294c55d5728586148bfa19e}{m\+Connectivity})$>$ \hyperlink{class_k_1_1_gw_a2a25d79475922457931affe36df2223f}{ev\+Connect\+Order}
+\item 
+function$<$ void(\hyperlink{namespace_k_a3da250819294c55d5728586148bfa19e}{m\+Connectivity})$>$ \hyperlink{class_k_1_1_gw_a9df19921d4fe9fc1aab360b9605fd451}{ev\+Connect\+Market}
+\item 
+\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17}{m\+Exchange} \hyperlink{class_k_1_1_gw_ab20a118abdc21d41ee2c9a5ae01212db}{exchange} = (\hyperlink{namespace_k_a7ab53d1849aa2c29d90459c21afa8c17}{m\+Exchange})0
+\item 
+int \hyperlink{class_k_1_1_gw_aad880fc4455c253781e8968f2239d56f}{version} = 0
+\item 
+int \hyperlink{class_k_1_1_gw_a8811afa719f86cb7ddde8770eb580fdc}{max\+Level} = 0
+\item 
+int \hyperlink{class_k_1_1_gw_ac3e1795766a80ec63b157951b4b9a7d4}{debug} = 0
+\item 
+int \hyperlink{class_k_1_1_gw_a8eb87e9b99a80ee81ff9114f6241b8d4}{chamber} = 0
+\item 
+\hyperlink{km_8h_a392f9b7f384aa3539bbb890b059f5b8c}{m\+Price} \hyperlink{class_k_1_1_gw_a86d946748d0cea5c3fb3ab8ae81cf23a}{min\+Tick} = 0
+\item 
+\hyperlink{km_8h_ad4d00888c55a47a8a40ed8020d176086}{m\+Amount} \hyperlink{class_k_1_1_gw_a379233bfc2ba83fd276d17dbe2e37009}{make\+Fee} = 0
+\item 
+\hyperlink{km_8h_ad4d00888c55a47a8a40ed8020d176086}{m\+Amount} \hyperlink{class_k_1_1_gw_a1a5ea3c2a5f11d2100866df8ae3b32fe}{take\+Fee} = 0
+\item 
+\hyperlink{km_8h_ad4d00888c55a47a8a40ed8020d176086}{m\+Amount} \hyperlink{class_k_1_1_gw_a9814db79743d44d6def92893a4b43b84}{min\+Size} = 0
+\item 
+\hyperlink{km_8h_a0299927fb26276a1e0f4c2b4dedb698e}{m\+Coin\+Id} \hyperlink{class_k_1_1_gw_a88838a75375332fd734e38ba4d7d870c}{base} = \char`\"{}\char`\"{}
+\item 
+\hyperlink{km_8h_a0299927fb26276a1e0f4c2b4dedb698e}{m\+Coin\+Id} \hyperlink{class_k_1_1_gw_abb05d77de0b838cdc580fe5759070aad}{quote} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_a8ccf841cb59e451791bcb2e1ac4f1edc}{name} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_aa0183fad0a4c5c8a30c8fdc7b81a1279}{symbol} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_a0372bca04753136de90e3cd45085dc45}{apikey} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_ae27f9f88345b7cc8388e912993d34b69}{secret} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_ae315dc7095b2ab26df1efb90a58f6345}{user} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_a2805cc9b0dd93ef48a266ab19ebfd7c1}{pass} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_a9a2c0c2e6f162d2d9155ba02e513d978}{ws} = \char`\"{}\char`\"{}
+\item 
+string \hyperlink{class_k_1_1_gw_a316cb611c8cb905b1c208e7c4f38bb4e}{http} = \char`\"{}\char`\"{}
+\item 
+bool \hyperlink{class_k_1_1_gw_a8bdead4768d804f7a81639dee1e456f2}{force\+Update} = false
+\item 
+\hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}($\ast$ \hyperlink{class_k_1_1_gw_ae3eceb5a8284748fe41ebb9e201cffbf}{rand\+Id} )()=0
+\item 
+function$<$ bool()$>$ \hyperlink{class_k_1_1_gw_a2381015e1bae39f4cfd8e158bec8161a}{wallet} = \mbox{[}\&\mbox{]}() \{ return !(\hyperlink{class_k_1_1_gw_a69bd12a2ef6f58b5a44c15b3801c2ef2}{async\+\_\+wallet}() or !\hyperlink{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{ask\+For}(\hyperlink{class_k_1_1_gw_af1978cbd97d41a4197e481dc8fdfa5eb}{reply\+Wallets}, \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_a45b0afcbe68c422db35af9b503831be5}{sync\+\_\+wallet}(); \})); \}
+\item 
+function$<$ bool()$>$ \hyperlink{class_k_1_1_gw_a167ae09c2d39a1aee89c080bf58c7fb3}{levels} = \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{ask\+For}(\hyperlink{class_k_1_1_gw_a37ee3b756d9b6633e81ff28125314fab}{reply\+Levels}, \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_ac20ee1cedc4725a39815f28d36470fa1}{sync\+\_\+levels}(); \}); \}
+\item 
+function$<$ bool()$>$ \hyperlink{class_k_1_1_gw_a2e04da03fb9d2f9179864a70244aedb9}{trades} = \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{ask\+For}(\hyperlink{class_k_1_1_gw_a3648d850c8042fbb808b77b0ebec8087}{reply\+Trades}, \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_a41fa6e2cd171072202fa1e44fbd780c5}{sync\+\_\+trades}(); \}); \}
+\item 
+function$<$ bool()$>$ \hyperlink{class_k_1_1_gw_ab56786d35b5f78826316091dfb92b300}{orders} = \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{ask\+For}(\hyperlink{class_k_1_1_gw_ab6cf63a19336c99e031b44359e68814f}{reply\+Orders}, \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_a96bb7b05334000c911a75894711853c4}{sync\+\_\+orders}(); \}); \}
+\item 
+function$<$ bool()$>$ \hyperlink{class_k_1_1_gw_a14d117d8e7284953667f53db89f1700c}{cancel\+All} = \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{ask\+For}(\hyperlink{class_k_1_1_gw_a02a0f0472ebae5925916a1d6661f8375}{reply\+Cancel\+All}, \mbox{[}\&\mbox{]}() \{ return \hyperlink{class_k_1_1_gw_aae707e552babec2a6f663f1c79745206}{sync\+\_\+cancel\+All}(); \}); \}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_k_1_1_gw_a69bd12a2ef6f58b5a44c15b3801c2ef2}{async\+\_\+wallet} ()
+\item 
+virtual vector$<$ \hyperlink{struct_k_1_1m_wallets}{m\+Wallets} $>$ \hyperlink{class_k_1_1_gw_a45b0afcbe68c422db35af9b503831be5}{sync\+\_\+wallet} ()
+\item 
+virtual vector$<$ \hyperlink{struct_k_1_1m_levels}{m\+Levels} $>$ \hyperlink{class_k_1_1_gw_ac20ee1cedc4725a39815f28d36470fa1}{sync\+\_\+levels} ()
+\item 
+virtual vector$<$ \hyperlink{struct_k_1_1m_trade}{m\+Trade} $>$ \hyperlink{class_k_1_1_gw_a41fa6e2cd171072202fa1e44fbd780c5}{sync\+\_\+trades} ()
+\item 
+virtual vector$<$ \hyperlink{struct_k_1_1m_order}{m\+Order} $>$ \hyperlink{class_k_1_1_gw_a96bb7b05334000c911a75894711853c4}{sync\+\_\+orders} ()
+\item 
+{\footnotesize template$<$typename m\+Data , typename sync $>$ }\\bool \hyperlink{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{ask\+For} (future$<$ vector$<$ m\+Data $>$$>$ \&reply, sync fn)
+\item 
+{\footnotesize template$<$typename m\+Data $>$ }\\unsigned int \hyperlink{class_k_1_1_gw_a96ddc8b55247c87b0ecbbba76c71b01a}{wait\+For} (future$<$ vector$<$ m\+Data $>$$>$ \&reply, function$<$ void(m\+Data)$>$ \&fn)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+future$<$ vector$<$ \hyperlink{struct_k_1_1m_wallets}{m\+Wallets} $>$ $>$ \hyperlink{class_k_1_1_gw_af1978cbd97d41a4197e481dc8fdfa5eb}{reply\+Wallets}
+\item 
+future$<$ vector$<$ \hyperlink{struct_k_1_1m_levels}{m\+Levels} $>$ $>$ \hyperlink{class_k_1_1_gw_a37ee3b756d9b6633e81ff28125314fab}{reply\+Levels}
+\item 
+future$<$ vector$<$ \hyperlink{struct_k_1_1m_trade}{m\+Trade} $>$ $>$ \hyperlink{class_k_1_1_gw_a3648d850c8042fbb808b77b0ebec8087}{reply\+Trades}
+\item 
+future$<$ vector$<$ \hyperlink{struct_k_1_1m_order}{m\+Order} $>$ $>$ \hyperlink{class_k_1_1_gw_ab6cf63a19336c99e031b44359e68814f}{reply\+Orders}
+\item 
+future$<$ vector$<$ \hyperlink{struct_k_1_1m_order}{m\+Order} $>$ $>$ \hyperlink{class_k_1_1_gw_a02a0f0472ebae5925916a1d6661f8375}{reply\+Cancel\+All}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 655 of file km.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{K\+::\+Gw@{K\+::\+Gw}!A@{A}}
+\index{A@{A}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{A()=0}{A()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual string A (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_k_1_1_gw_aca39965d86b136eea65d98c8797af168}{}\label{class_k_1_1_gw_aca39965d86b136eea65d98c8797af168}
+\index{K\+::\+Gw@{K\+::\+Gw}!ask\+For@{ask\+For}}
+\index{ask\+For@{ask\+For}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ask\+For(future$<$ vector$<$ m\+Data $>$$>$ \&reply, sync fn)}{askFor(future< vector< mData >> &reply, sync fn)}}]{\setlength{\rightskip}{0pt plus 5cm}bool ask\+For (
+\begin{DoxyParamCaption}
+\item[{future$<$ vector$<$ m\+Data $>$$>$ \&}]{reply, }
+\item[{sync}]{fn}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}{}\label{class_k_1_1_gw_af6748577cac6d6171379036bcd243228}
+
+
+Definition at line 712 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!async\+\_\+levels@{async\+\_\+levels}}
+\index{async\+\_\+levels@{async\+\_\+levels}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{async\+\_\+levels()}{async_levels()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool async\+\_\+levels (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_ad1293382b9b42a2fb3e1119078f97ca4}{}\label{class_k_1_1_gw_ad1293382b9b42a2fb3e1119078f97ca4}
+
+
+Definition at line 697 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!async\+\_\+orders@{async\+\_\+orders}}
+\index{async\+\_\+orders@{async\+\_\+orders}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{async\+\_\+orders()}{async_orders()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool async\+\_\+orders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_aae17c049f2524a26e52ba61080b06fda}{}\label{class_k_1_1_gw_aae17c049f2524a26e52ba61080b06fda}
+
+
+Definition at line 699 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!async\+\_\+trades@{async\+\_\+trades}}
+\index{async\+\_\+trades@{async\+\_\+trades}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{async\+\_\+trades()}{async_trades()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool async\+\_\+trades (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_aadf97204c27f5ef667c159182fac5e26}{}\label{class_k_1_1_gw_aadf97204c27f5ef667c159182fac5e26}
+
+
+Definition at line 698 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!async\+\_\+wallet@{async\+\_\+wallet}}
+\index{async\+\_\+wallet@{async\+\_\+wallet}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{async\+\_\+wallet()}{async_wallet()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool async\+\_\+wallet (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_a69bd12a2ef6f58b5a44c15b3801c2ef2}{}\label{class_k_1_1_gw_a69bd12a2ef6f58b5a44c15b3801c2ef2}
+
+
+Definition at line 702 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!cancel@{cancel}}
+\index{cancel@{cancel}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{cancel(m\+Rand\+Id, m\+Rand\+Id, m\+Side, m\+Clock)=0}{cancel(mRandId, mRandId, mSide, mClock)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void cancel (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Rand\+Id}}]{, }
+\item[{{\bf m\+Rand\+Id}}]{, }
+\item[{{\bf m\+Side}}]{, }
+\item[{{\bf m\+Clock}}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_k_1_1_gw_a20fa6fadc0acc192eec1f324742135ca}{}\label{class_k_1_1_gw_a20fa6fadc0acc192eec1f324742135ca}
+\index{K\+::\+Gw@{K\+::\+Gw}!close@{close}}
+\index{close@{close}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{close()=0}{close()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_k_1_1_gw_af6ee7eacbde6b379b68d954e44f6e549}{}\label{class_k_1_1_gw_af6ee7eacbde6b379b68d954e44f6e549}
+\index{K\+::\+Gw@{K\+::\+Gw}!config@{config}}
+\index{config@{config}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{config(m\+Coin\+Id, m\+Coin\+Id, string, int, string, string, string, string, string, string, int, int, int)}{config(mCoinId, mCoinId, string, int, string, string, string, string, string, string, int, int, int)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Gw}$\ast$ config (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Coin\+Id}}]{, }
+\item[{{\bf m\+Coin\+Id}}]{, }
+\item[{string}]{, }
+\item[{int}]{, }
+\item[{string}]{, }
+\item[{string}]{, }
+\item[{string}]{, }
+\item[{string}]{, }
+\item[{string}]{, }
+\item[{string}]{, }
+\item[{int}]{, }
+\item[{int}]{, }
+\item[{int}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_k_1_1_gw_a282f7bac1cca98304b43013414a068af}{}\label{class_k_1_1_gw_a282f7bac1cca98304b43013414a068af}
+\index{K\+::\+Gw@{K\+::\+Gw}!send@{send}}
+\index{send@{send}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{send(m\+Rand\+Id, m\+Rand\+Id, m\+Rand\+Id, m\+Side, string, string, m\+Order\+Type, m\+Time\+In\+Force, bool, m\+Clock)=0}{send(mRandId, mRandId, mRandId, mSide, string, string, mOrderType, mTimeInForce, bool, mClock)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void send (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Rand\+Id}}]{, }
+\item[{{\bf m\+Rand\+Id}}]{, }
+\item[{{\bf m\+Rand\+Id}}]{, }
+\item[{{\bf m\+Side}}]{, }
+\item[{string}]{, }
+\item[{string}]{, }
+\item[{{\bf m\+Order\+Type}}]{, }
+\item[{{\bf m\+Time\+In\+Force}}]{, }
+\item[{bool}]{, }
+\item[{{\bf m\+Clock}}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_k_1_1_gw_aaa3aac9b11f8b2d0fd549f88c049e7bb}{}\label{class_k_1_1_gw_aaa3aac9b11f8b2d0fd549f88c049e7bb}
+\index{K\+::\+Gw@{K\+::\+Gw}!sync\+\_\+cancel\+All@{sync\+\_\+cancel\+All}}
+\index{sync\+\_\+cancel\+All@{sync\+\_\+cancel\+All}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{sync\+\_\+cancel\+All()=0}{sync_cancelAll()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual vector$<${\bf m\+Order}$>$ sync\+\_\+cancel\+All (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_k_1_1_gw_aae707e552babec2a6f663f1c79745206}{}\label{class_k_1_1_gw_aae707e552babec2a6f663f1c79745206}
+\index{K\+::\+Gw@{K\+::\+Gw}!sync\+\_\+levels@{sync\+\_\+levels}}
+\index{sync\+\_\+levels@{sync\+\_\+levels}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{sync\+\_\+levels()}{sync_levels()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual vector$<${\bf m\+Levels}$>$ sync\+\_\+levels (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_ac20ee1cedc4725a39815f28d36470fa1}{}\label{class_k_1_1_gw_ac20ee1cedc4725a39815f28d36470fa1}
+
+
+Definition at line 704 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!sync\+\_\+orders@{sync\+\_\+orders}}
+\index{sync\+\_\+orders@{sync\+\_\+orders}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{sync\+\_\+orders()}{sync_orders()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual vector$<${\bf m\+Order}$>$ sync\+\_\+orders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_a96bb7b05334000c911a75894711853c4}{}\label{class_k_1_1_gw_a96bb7b05334000c911a75894711853c4}
+
+
+Definition at line 706 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!sync\+\_\+trades@{sync\+\_\+trades}}
+\index{sync\+\_\+trades@{sync\+\_\+trades}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{sync\+\_\+trades()}{sync_trades()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual vector$<${\bf m\+Trade}$>$ sync\+\_\+trades (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_a41fa6e2cd171072202fa1e44fbd780c5}{}\label{class_k_1_1_gw_a41fa6e2cd171072202fa1e44fbd780c5}
+
+
+Definition at line 705 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!sync\+\_\+wallet@{sync\+\_\+wallet}}
+\index{sync\+\_\+wallet@{sync\+\_\+wallet}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{sync\+\_\+wallet()}{sync_wallet()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual vector$<${\bf m\+Wallets}$>$ sync\+\_\+wallet (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_gw_a45b0afcbe68c422db35af9b503831be5}{}\label{class_k_1_1_gw_a45b0afcbe68c422db35af9b503831be5}
+
+
+Definition at line 703 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!wait\+For@{wait\+For}}
+\index{wait\+For@{wait\+For}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{wait\+For(future$<$ vector$<$ m\+Data $>$$>$ \&reply, function$<$ void(m\+Data)$>$ \&fn)}{waitFor(future< vector< mData >> &reply, function< void(mData)> &fn)}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int wait\+For (
+\begin{DoxyParamCaption}
+\item[{future$<$ vector$<$ m\+Data $>$$>$ \&}]{reply, }
+\item[{function$<$ void(m\+Data)$>$ \&}]{fn}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_a96ddc8b55247c87b0ecbbba76c71b01a}{}\label{class_k_1_1_gw_a96ddc8b55247c87b0ecbbba76c71b01a}
+
+
+Definition at line 720 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!wait\+For\+Data@{wait\+For\+Data}}
+\index{wait\+For\+Data@{wait\+For\+Data}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{wait\+For\+Data()}{waitForData()}}]{\setlength{\rightskip}{0pt plus 5cm}bool wait\+For\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_gw_ac4c94b7be7f6b0bfe7e42e31d965923c}{}\label{class_k_1_1_gw_ac4c94b7be7f6b0bfe7e42e31d965923c}
+
+
+Definition at line 685 of file km.\+h.
+
+
+
+\subsection{Field Documentation}
+\index{K\+::\+Gw@{K\+::\+Gw}!apikey@{apikey}}
+\index{apikey@{apikey}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{apikey}{apikey}}]{\setlength{\rightskip}{0pt plus 5cm}string apikey = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_a0372bca04753136de90e3cd45085dc45}{}\label{class_k_1_1_gw_a0372bca04753136de90e3cd45085dc45}
+
+
+Definition at line 677 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!base@{base}}
+\index{base@{base}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{base}{base}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Coin\+Id} base = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_a88838a75375332fd734e38ba4d7d870c}{}\label{class_k_1_1_gw_a88838a75375332fd734e38ba4d7d870c}
+
+
+Definition at line 675 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!cancel\+All@{cancel\+All}}
+\index{cancel\+All@{cancel\+All}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{cancel\+All}{cancelAll}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$bool()$>$ cancel\+All = \mbox{[}\&\mbox{]}() \{ return {\bf ask\+For}({\bf reply\+Cancel\+All}, \mbox{[}\&\mbox{]}() \{ return {\bf sync\+\_\+cancel\+All}(); \}); \}}\hypertarget{class_k_1_1_gw_a14d117d8e7284953667f53db89f1700c}{}\label{class_k_1_1_gw_a14d117d8e7284953667f53db89f1700c}
+
+
+Definition at line 696 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!chamber@{chamber}}
+\index{chamber@{chamber}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{chamber}{chamber}}]{\setlength{\rightskip}{0pt plus 5cm}int chamber = 0}\hypertarget{class_k_1_1_gw_a8eb87e9b99a80ee81ff9114f6241b8d4}{}\label{class_k_1_1_gw_a8eb87e9b99a80ee81ff9114f6241b8d4}
+
+
+Definition at line 671 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!debug@{debug}}
+\index{debug@{debug}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{debug}{debug}}]{\setlength{\rightskip}{0pt plus 5cm}int debug = 0}\hypertarget{class_k_1_1_gw_ac3e1795766a80ec63b157951b4b9a7d4}{}\label{class_k_1_1_gw_ac3e1795766a80ec63b157951b4b9a7d4}
+
+
+Definition at line 671 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ev\+Connect\+Market@{ev\+Connect\+Market}}
+\index{ev\+Connect\+Market@{ev\+Connect\+Market}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ev\+Connect\+Market}{evConnectMarket}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Connectivity})$>$ ev\+Connect\+Market}\hypertarget{class_k_1_1_gw_a9df19921d4fe9fc1aab360b9605fd451}{}\label{class_k_1_1_gw_a9df19921d4fe9fc1aab360b9605fd451}
+
+
+Definition at line 667 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ev\+Connect\+Order@{ev\+Connect\+Order}}
+\index{ev\+Connect\+Order@{ev\+Connect\+Order}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ev\+Connect\+Order}{evConnectOrder}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Connectivity})$>$ ev\+Connect\+Order}\hypertarget{class_k_1_1_gw_a2a25d79475922457931affe36df2223f}{}\label{class_k_1_1_gw_a2a25d79475922457931affe36df2223f}
+
+
+Definition at line 667 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ev\+Data\+Levels@{ev\+Data\+Levels}}
+\index{ev\+Data\+Levels@{ev\+Data\+Levels}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ev\+Data\+Levels}{evDataLevels}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Levels})$>$ ev\+Data\+Levels}\hypertarget{class_k_1_1_gw_a2d20ec3398210965d042521449f1d890}{}\label{class_k_1_1_gw_a2d20ec3398210965d042521449f1d890}
+
+
+Definition at line 665 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ev\+Data\+Order@{ev\+Data\+Order}}
+\index{ev\+Data\+Order@{ev\+Data\+Order}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ev\+Data\+Order}{evDataOrder}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Order})$>$ ev\+Data\+Order}\hypertarget{class_k_1_1_gw_adf1e832cf66132207c5b97edb28437bf}{}\label{class_k_1_1_gw_adf1e832cf66132207c5b97edb28437bf}
+
+
+Definition at line 663 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ev\+Data\+Trade@{ev\+Data\+Trade}}
+\index{ev\+Data\+Trade@{ev\+Data\+Trade}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ev\+Data\+Trade}{evDataTrade}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Trade})$>$ ev\+Data\+Trade}\hypertarget{class_k_1_1_gw_a6cdc51ebb4004f0a69afafb623d9d7e0}{}\label{class_k_1_1_gw_a6cdc51ebb4004f0a69afafb623d9d7e0}
+
+
+Definition at line 664 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ev\+Data\+Wallet@{ev\+Data\+Wallet}}
+\index{ev\+Data\+Wallet@{ev\+Data\+Wallet}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ev\+Data\+Wallet}{evDataWallet}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void({\bf m\+Wallets})$>$ ev\+Data\+Wallet}\hypertarget{class_k_1_1_gw_ae539d2c47a0e797655fea7dcc8666408}{}\label{class_k_1_1_gw_ae539d2c47a0e797655fea7dcc8666408}
+
+
+Definition at line 666 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!exchange@{exchange}}
+\index{exchange@{exchange}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{exchange}{exchange}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Exchange} exchange = ({\bf m\+Exchange})0}\hypertarget{class_k_1_1_gw_ab20a118abdc21d41ee2c9a5ae01212db}{}\label{class_k_1_1_gw_ab20a118abdc21d41ee2c9a5ae01212db}
+
+
+Definition at line 669 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!force\+Update@{force\+Update}}
+\index{force\+Update@{force\+Update}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{force\+Update}{forceUpdate}}]{\setlength{\rightskip}{0pt plus 5cm}bool force\+Update = false}\hypertarget{class_k_1_1_gw_a8bdead4768d804f7a81639dee1e456f2}{}\label{class_k_1_1_gw_a8bdead4768d804f7a81639dee1e456f2}
+
+
+Definition at line 680 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!gw\+Group@{gw\+Group}}
+\index{gw\+Group@{gw\+Group}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{gw\+Group}{gwGroup}}]{\setlength{\rightskip}{0pt plus 5cm}u\+W\+S\+::\+Group$<$u\+W\+S\+::\+C\+L\+I\+E\+NT$>$$\ast$ gw\+Group = nullptr}\hypertarget{class_k_1_1_gw_a57ae195e4262e03d47cad44c3a0b09f1}{}\label{class_k_1_1_gw_a57ae195e4262e03d47cad44c3a0b09f1}
+
+
+Definition at line 659 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!http@{http}}
+\index{http@{http}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{http}{http}}]{\setlength{\rightskip}{0pt plus 5cm}string http = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_a316cb611c8cb905b1c208e7c4f38bb4e}{}\label{class_k_1_1_gw_a316cb611c8cb905b1c208e7c4f38bb4e}
+
+
+Definition at line 679 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!hub@{hub}}
+\index{hub@{hub}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{hub}{hub}}]{\setlength{\rightskip}{0pt plus 5cm}u\+W\+S\+::\+Hub$\ast$ hub = nullptr}\hypertarget{class_k_1_1_gw_a33b00844a7c4d5c91a4696d71e02bafd}{}\label{class_k_1_1_gw_a33b00844a7c4d5c91a4696d71e02bafd}
+
+
+Definition at line 658 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!levels@{levels}}
+\index{levels@{levels}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{levels}{levels}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$bool()$>$ levels = \mbox{[}\&\mbox{]}() \{ return {\bf ask\+For}({\bf reply\+Levels}, \mbox{[}\&\mbox{]}() \{ return {\bf sync\+\_\+levels}(); \}); \}}\hypertarget{class_k_1_1_gw_a167ae09c2d39a1aee89c080bf58c7fb3}{}\label{class_k_1_1_gw_a167ae09c2d39a1aee89c080bf58c7fb3}
+
+
+Definition at line 693 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!log@{log}}
+\index{log@{log}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{log}{log}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void(string)$>$ log}\hypertarget{class_k_1_1_gw_a45c045408bc39a1e18f99b18505a0859}{}\label{class_k_1_1_gw_a45c045408bc39a1e18f99b18505a0859}
+
+
+Definition at line 661 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!make\+Fee@{make\+Fee}}
+\index{make\+Fee@{make\+Fee}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{make\+Fee}{makeFee}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Amount} make\+Fee = 0}\hypertarget{class_k_1_1_gw_a379233bfc2ba83fd276d17dbe2e37009}{}\label{class_k_1_1_gw_a379233bfc2ba83fd276d17dbe2e37009}
+
+
+Definition at line 673 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!max\+Level@{max\+Level}}
+\index{max\+Level@{max\+Level}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{max\+Level}{maxLevel}}]{\setlength{\rightskip}{0pt plus 5cm}int max\+Level = 0}\hypertarget{class_k_1_1_gw_a8811afa719f86cb7ddde8770eb580fdc}{}\label{class_k_1_1_gw_a8811afa719f86cb7ddde8770eb580fdc}
+
+
+Definition at line 670 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!min\+Size@{min\+Size}}
+\index{min\+Size@{min\+Size}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{min\+Size}{minSize}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Amount} min\+Size = 0}\hypertarget{class_k_1_1_gw_a9814db79743d44d6def92893a4b43b84}{}\label{class_k_1_1_gw_a9814db79743d44d6def92893a4b43b84}
+
+
+Definition at line 674 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!min\+Tick@{min\+Tick}}
+\index{min\+Tick@{min\+Tick}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{min\+Tick}{minTick}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Price} min\+Tick = 0}\hypertarget{class_k_1_1_gw_a86d946748d0cea5c3fb3ab8ae81cf23a}{}\label{class_k_1_1_gw_a86d946748d0cea5c3fb3ab8ae81cf23a}
+
+
+Definition at line 672 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!name@{name}}
+\index{name@{name}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{name}{name}}]{\setlength{\rightskip}{0pt plus 5cm}string name = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_a8ccf841cb59e451791bcb2e1ac4f1edc}{}\label{class_k_1_1_gw_a8ccf841cb59e451791bcb2e1ac4f1edc}
+
+
+Definition at line 676 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!orders@{orders}}
+\index{orders@{orders}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{orders}{orders}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$bool()$>$ orders = \mbox{[}\&\mbox{]}() \{ return {\bf ask\+For}({\bf reply\+Orders}, \mbox{[}\&\mbox{]}() \{ return {\bf sync\+\_\+orders}(); \}); \}}\hypertarget{class_k_1_1_gw_ab56786d35b5f78826316091dfb92b300}{}\label{class_k_1_1_gw_ab56786d35b5f78826316091dfb92b300}
+
+
+Definition at line 695 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!pass@{pass}}
+\index{pass@{pass}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{pass}{pass}}]{\setlength{\rightskip}{0pt plus 5cm}string pass = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_a2805cc9b0dd93ef48a266ab19ebfd7c1}{}\label{class_k_1_1_gw_a2805cc9b0dd93ef48a266ab19ebfd7c1}
+
+
+Definition at line 678 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!quote@{quote}}
+\index{quote@{quote}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{quote}{quote}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Coin\+Id} quote = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_abb05d77de0b838cdc580fe5759070aad}{}\label{class_k_1_1_gw_abb05d77de0b838cdc580fe5759070aad}
+
+
+Definition at line 675 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!rand\+Id@{rand\+Id}}
+\index{rand\+Id@{rand\+Id}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{rand\+Id}{randId}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Rand\+Id}($\ast$ rand\+Id) ()=0}\hypertarget{class_k_1_1_gw_ae3eceb5a8284748fe41ebb9e201cffbf}{}\label{class_k_1_1_gw_ae3eceb5a8284748fe41ebb9e201cffbf}
+
+
+Definition at line 681 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!reconnect@{reconnect}}
+\index{reconnect@{reconnect}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{reconnect}{reconnect}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void(string)$>$ reconnect}\hypertarget{class_k_1_1_gw_acedf7f89824adaf984f2ff0cbb29961a}{}\label{class_k_1_1_gw_acedf7f89824adaf984f2ff0cbb29961a}
+
+
+Definition at line 661 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!reply\+Cancel\+All@{reply\+Cancel\+All}}
+\index{reply\+Cancel\+All@{reply\+Cancel\+All}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{reply\+Cancel\+All}{replyCancelAll}}]{\setlength{\rightskip}{0pt plus 5cm}future$<$vector$<${\bf m\+Order}$>$ $>$ reply\+Cancel\+All\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_a02a0f0472ebae5925916a1d6661f8375}{}\label{class_k_1_1_gw_a02a0f0472ebae5925916a1d6661f8375}
+
+
+Definition at line 711 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!reply\+Levels@{reply\+Levels}}
+\index{reply\+Levels@{reply\+Levels}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{reply\+Levels}{replyLevels}}]{\setlength{\rightskip}{0pt plus 5cm}future$<$vector$<${\bf m\+Levels}$>$ $>$ reply\+Levels\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_a37ee3b756d9b6633e81ff28125314fab}{}\label{class_k_1_1_gw_a37ee3b756d9b6633e81ff28125314fab}
+
+
+Definition at line 708 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!reply\+Orders@{reply\+Orders}}
+\index{reply\+Orders@{reply\+Orders}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{reply\+Orders}{replyOrders}}]{\setlength{\rightskip}{0pt plus 5cm}future$<$vector$<${\bf m\+Order}$>$ $>$ reply\+Orders\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_ab6cf63a19336c99e031b44359e68814f}{}\label{class_k_1_1_gw_ab6cf63a19336c99e031b44359e68814f}
+
+
+Definition at line 710 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!reply\+Trades@{reply\+Trades}}
+\index{reply\+Trades@{reply\+Trades}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{reply\+Trades}{replyTrades}}]{\setlength{\rightskip}{0pt plus 5cm}future$<$vector$<${\bf m\+Trade}$>$ $>$ reply\+Trades\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_a3648d850c8042fbb808b77b0ebec8087}{}\label{class_k_1_1_gw_a3648d850c8042fbb808b77b0ebec8087}
+
+
+Definition at line 709 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!reply\+Wallets@{reply\+Wallets}}
+\index{reply\+Wallets@{reply\+Wallets}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{reply\+Wallets}{replyWallets}}]{\setlength{\rightskip}{0pt plus 5cm}future$<$vector$<${\bf m\+Wallets}$>$ $>$ reply\+Wallets\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_k_1_1_gw_af1978cbd97d41a4197e481dc8fdfa5eb}{}\label{class_k_1_1_gw_af1978cbd97d41a4197e481dc8fdfa5eb}
+
+
+Definition at line 706 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!secret@{secret}}
+\index{secret@{secret}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{secret}{secret}}]{\setlength{\rightskip}{0pt plus 5cm}string secret = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_ae27f9f88345b7cc8388e912993d34b69}{}\label{class_k_1_1_gw_ae27f9f88345b7cc8388e912993d34b69}
+
+
+Definition at line 677 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!symbol@{symbol}}
+\index{symbol@{symbol}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{symbol}{symbol}}]{\setlength{\rightskip}{0pt plus 5cm}string symbol = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_aa0183fad0a4c5c8a30c8fdc7b81a1279}{}\label{class_k_1_1_gw_aa0183fad0a4c5c8a30c8fdc7b81a1279}
+
+
+Definition at line 676 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!take\+Fee@{take\+Fee}}
+\index{take\+Fee@{take\+Fee}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{take\+Fee}{takeFee}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Amount} take\+Fee = 0}\hypertarget{class_k_1_1_gw_a1a5ea3c2a5f11d2100866df8ae3b32fe}{}\label{class_k_1_1_gw_a1a5ea3c2a5f11d2100866df8ae3b32fe}
+
+
+Definition at line 673 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!trades@{trades}}
+\index{trades@{trades}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{trades}{trades}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$bool()$>$ trades = \mbox{[}\&\mbox{]}() \{ return {\bf ask\+For}({\bf reply\+Trades}, \mbox{[}\&\mbox{]}() \{ return {\bf sync\+\_\+trades}(); \}); \}}\hypertarget{class_k_1_1_gw_a2e04da03fb9d2f9179864a70244aedb9}{}\label{class_k_1_1_gw_a2e04da03fb9d2f9179864a70244aedb9}
+
+
+Definition at line 694 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!user@{user}}
+\index{user@{user}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{user}{user}}]{\setlength{\rightskip}{0pt plus 5cm}string user = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_ae315dc7095b2ab26df1efb90a58f6345}{}\label{class_k_1_1_gw_ae315dc7095b2ab26df1efb90a58f6345}
+
+
+Definition at line 678 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!version@{version}}
+\index{version@{version}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{version}{version}}]{\setlength{\rightskip}{0pt plus 5cm}int version = 0}\hypertarget{class_k_1_1_gw_aad880fc4455c253781e8968f2239d56f}{}\label{class_k_1_1_gw_aad880fc4455c253781e8968f2239d56f}
+
+
+Definition at line 670 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!wallet@{wallet}}
+\index{wallet@{wallet}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{wallet}{wallet}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$bool()$>$ wallet = \mbox{[}\&\mbox{]}() \{ return !({\bf async\+\_\+wallet}() or !{\bf ask\+For}({\bf reply\+Wallets}, \mbox{[}\&\mbox{]}() \{ return {\bf sync\+\_\+wallet}(); \})); \}}\hypertarget{class_k_1_1_gw_a2381015e1bae39f4cfd8e158bec8161a}{}\label{class_k_1_1_gw_a2381015e1bae39f4cfd8e158bec8161a}
+
+
+Definition at line 692 of file km.\+h.
+
+\index{K\+::\+Gw@{K\+::\+Gw}!ws@{ws}}
+\index{ws@{ws}!K\+::\+Gw@{K\+::\+Gw}}
+\subsubsection[{\texorpdfstring{ws}{ws}}]{\setlength{\rightskip}{0pt plus 5cm}string ws = \char`\"{}\char`\"{}}\hypertarget{class_k_1_1_gw_a9a2c0c2e6f162d2d9155ba02e513d978}{}\label{class_k_1_1_gw_a9a2c0c2e6f162d2d9155ba02e513d978}
+
+
+Definition at line 679 of file km.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{km_8h}{km.\+h}\end{DoxyCompactItemize}

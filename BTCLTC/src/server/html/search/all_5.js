@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['empty',['empty',['../struct_k_1_1m_wallet.html#a3f37b042a1e7cd4bd38fc564de81f0da',1,'K::mWallet::empty()'],['../struct_k_1_1m_wallets.html#a3f37b042a1e7cd4bd38fc564de81f0da',1,'K::mWallets::empty()'],['../struct_k_1_1m_safety.html#a3f37b042a1e7cd4bd38fc564de81f0da',1,'K::mSafety::empty()'],['../struct_k_1_1m_position.html#a3f37b042a1e7cd4bd38fc564de81f0da',1,'K::mPosition::empty()'],['../struct_k_1_1m_level.html#a3f37b042a1e7cd4bd38fc564de81f0da',1,'K::mLevel::empty()'],['../struct_k_1_1m_levels.html#a3f37b042a1e7cd4bd38fc564de81f0da',1,'K::mLevels::empty()']]],
+  ['endingfn',['endingFn',['../namespace_k.html#a1c3ecbe3046298af183be61349de6900',1,'K']]],
+  ['engine',['engine',['../class_k_1_1_klass.html#ad2746d88e168f466f52cdf9e07f67ab1',1,'K::Klass']]],
+  ['equal',['equal',['../struct_k_1_1m_quoting_params.html#a049d4509d364db17f6654111e95ad64b',1,'K::mQuotingParams']]],
+  ['error',['error',['../class_k_1_1_s_h.html#a4c49d97d050be83fa5908a03c8c47c8a',1,'K::SH']]],
+  ['esc',['ESC',['../namespace_k.html#a211862d8b09ec46a051464b6859c1306a6351aefd1e5e1b62c76f8580116964be',1,'K']]],
+  ['ev',['EV',['../class_k_1_1_e_v.html',1,'K']]],
+  ['ev_2eh',['ev.h',['../ev_8h.html',1,'']]],
+  ['evconnectmarket',['evConnectMarket',['../class_k_1_1_gw.html#a9df19921d4fe9fc1aab360b9605fd451',1,'K::Gw']]],
+  ['evconnectorder',['evConnectOrder',['../class_k_1_1_gw.html#a2a25d79475922457931affe36df2223f',1,'K::Gw']]],
+  ['evdatalevels',['evDataLevels',['../class_k_1_1_gw.html#a2d20ec3398210965d042521449f1d890',1,'K::Gw']]],
+  ['evdataorder',['evDataOrder',['../class_k_1_1_gw.html#adf1e832cf66132207c5b97edb28437bf',1,'K::Gw']]],
+  ['evdatatrade',['evDataTrade',['../class_k_1_1_gw.html#a6cdc51ebb4004f0a69afafb623d9d7e0',1,'K::Gw']]],
+  ['evdatawallet',['evDataWallet',['../class_k_1_1_gw.html#ae539d2c47a0e797655fea7dcc8666408',1,'K::Gw']]],
+  ['events',['events',['../class_k_1_1_klass.html#aef02c650240e6291d8a616cda222d890',1,'K::Klass']]],
+  ['evlink',['evLink',['../class_k_1_1_klass.html#a07cc2e2fb5c51342a2488d3011d08898',1,'K::Klass']]],
+  ['ewma_5f4',['EWMA_4',['../namespace_k.html#a8708a45c314b4d4bb9e7221009ccee8aaf907e979e96417055b1b3174b18689fd',1,'K']]],
+  ['ewma_5flms',['EWMA_LMS',['../namespace_k.html#a8708a45c314b4d4bb9e7221009ccee8aa7a06abe21a1d39768d5df863d1c9cfc4',1,'K']]],
+  ['ewma_5fls',['EWMA_LS',['../namespace_k.html#a8708a45c314b4d4bb9e7221009ccee8aab539e10bdc606700e99b1e0cff611765',1,'K']]],
+  ['ewmachart',['EWMAChart',['../namespace_k.html#a06e0333f0bcd3fc79835735bb9cda73dac68b9ff55f400f5dd9adcd7a3f5372e4',1,'K']]],
+  ['ewmasensiblitypercentage',['ewmaSensiblityPercentage',['../struct_k_1_1m_quoting_params.html#aa9c1573602f4339de74409d7a69de26f',1,'K::mQuotingParams']]],
+  ['exchange',['exchange',['../class_k_1_1_gw.html#ab20a118abdc21d41ee2c9a5ae01212db',1,'K::Gw']]],
+  ['exchangeid',['exchangeId',['../struct_k_1_1m_order.html#a74fdf2701cf5d1c94eb4cca99251668a',1,'K::mOrder']]],
+  ['externalvaluation',['ExternalValuation',['../namespace_k.html#a06e0333f0bcd3fc79835735bb9cda73daa47103a2cc61c37ef564115155eb5a1b',1,'K']]],
+  ['extrashortewmaperiods',['extraShortEwmaPeriods',['../struct_k_1_1m_quoting_params.html#a9e3ade82ef85cb29dfb6f493b64df9f7',1,'K::mQuotingParams']]]
+];

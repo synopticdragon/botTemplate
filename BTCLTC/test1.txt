@@ -1,0 +1,4 @@
+-g -o build-x86_64-linux-gnu/local/bin/K-x86_64-linux-gnu -DHAVE_STD_UNIQUE_PTR -DUWS_THREADSAFE -static-libstdc++ -static-libgcc -g -rdynamic -Ibuild-x86_64-linux-gnu/local/include -pthread -std=c++11 -O3 build-x86_64-linux-gnu/local/lib/K-x86_64-linux-gnu-docroot.o src/server/K.cxx -DK_0_DAY='"v0.4.6+17"' -DK_STAMP='"2018-05-28 15:15:20"' -DK_BUILD='"x86_64-linux-gnu"'     
+
+
+

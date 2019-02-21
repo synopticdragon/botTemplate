@@ -1,0 +1,369 @@
+\hypertarget{class_k_1_1_s_h}{}\section{SH Class Reference}
+\label{class_k_1_1_s_h}\index{SH@{SH}}
+
+
+{\ttfamily \#include $<$sh.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_k_1_1_s_h_a318dc7a3f5064dac8e50e5d9fbd5d75f}{SH} ()
+\item 
+void \hyperlink{class_k_1_1_s_h_abacd4501fa9314b249f770765816dce5}{config} (string base\+\_\+, string quote\+\_\+, string arg\+Exchange, int arg\+Colors, int arg\+Port, int arg\+Naked)
+\item 
+void \hyperlink{class_k_1_1_s_h_a4c6bd9d7e5cc908ef96085609e455cb1}{pressme} (\hyperlink{namespace_k_a211862d8b09ec46a051464b6859c1306}{m\+Hotkey} ch, function$<$ void()$>$ $\ast$fn)
+\item 
+void \hyperlink{class_k_1_1_s_h_a2463a3acef2df4c951ce942a3229e44e}{quit} ()
+\item 
+int \hyperlink{class_k_1_1_s_h_a4c49d97d050be83fa5908a03c8c47c8a}{error} (string k, string s, bool reboot=false)
+\item 
+void \hyperlink{class_k_1_1_s_h_ae8fa6fc69497d85bcf25571f2f80f353}{wait\+For\+User} ()
+\item 
+string \hyperlink{class_k_1_1_s_h_a9467c6fc12388f8513d2f21f76bb7dc7}{stamp} ()
+\item 
+void \hyperlink{class_k_1_1_s_h_aa6ff36d9cf9124487791c66fe0f121e7}{log\+War} (string k, string s)
+\item 
+void \hyperlink{class_k_1_1_s_h_a81e184501800070f574e7b688069c3ec}{log\+Err} (string k, string s, string m=\char`\"{} Errrror\+: \char`\"{})
+\item 
+void \hyperlink{class_k_1_1_s_h_af67052c37f765ca542764f5fcfdde593}{log\+DB} (string k)
+\item 
+void \hyperlink{class_k_1_1_s_h_aca26ec816d45509907350a56b57ea869}{log\+UI} ()
+\item 
+void \hyperlink{class_k_1_1_s_h_aeea74b282180b4d73d9855920edecc7f}{log\+U\+Isess} (int k, string s)
+\item 
+void \hyperlink{class_k_1_1_s_h_a09145551996ba5f25fb67280967aef90}{log\+Ver} (string k, int c)
+\item 
+void \hyperlink{class_k_1_1_s_h_a50fa1ebfccaac1a37b97b499780a4d30}{log} (\hyperlink{struct_k_1_1m_trade}{m\+Trade} k, string e)
+\item 
+void \hyperlink{class_k_1_1_s_h_a05d165fd99c6a9407040879a506bcf94}{log} (string k, string s, string v)
+\item 
+void \hyperlink{class_k_1_1_s_h_ac768cf60d7151187490fb98888116fbf}{log} (string k, string s)
+\item 
+void \hyperlink{class_k_1_1_s_h_a81f63afb8bf5d2129520b9d83a8aae45}{log} (string k, int c=C\+O\+L\+O\+R\+\_\+\+W\+H\+I\+TE, bool b=false)
+\item 
+void \hyperlink{class_k_1_1_s_h_a56dbc67f7f81955c835dee9802bc6d90}{log} (const map$<$ \hyperlink{km_8h_a23233b27e494114073abc4d494b05626}{m\+Rand\+Id}, \hyperlink{struct_k_1_1m_order}{m\+Order} $>$ \&orders, bool working)
+\item 
+void \hyperlink{class_k_1_1_s_h_a5be6e66b940b986413db423ab7df1cd2}{log} (const \hyperlink{struct_k_1_1m_position}{m\+Position} \&pos)
+\item 
+void \hyperlink{class_k_1_1_s_h_ac7b5f65dd2a0c700f7ab8c39ff6c5963}{log} (double fv)
+\item 
+void \hyperlink{class_k_1_1_s_h_a5f2e190b8261a98c97c2ea4e86670d54}{refresh} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_k_1_1_s_h_abb2930f405f8983fca3bab0e1d505a85}{changelog} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_k_1_1_s_h_aeb72b6e20d3a581dcdede91beb824d9f}{protocol} = \char`\"{}H\+T\+TP\char`\"{}
+\item 
+\hyperlink{namespace_k_a3da250819294c55d5728586148bfa19e}{m\+Connectivity} $\ast$ \hyperlink{class_k_1_1_s_h_a572945fdb3d861b6c685f6c5af9f1376}{gw\+Connected} = nullptr
+\item 
+\hyperlink{namespace_k_a3da250819294c55d5728586148bfa19e}{m\+Connectivity} $\ast$ \hyperlink{class_k_1_1_s_h_a6d9ed4a9793ac810eca371568ee912d3}{gw\+Connected\+Exchange} = nullptr
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file sh.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{K\+::\+SH@{K\+::\+SH}!SH@{SH}}
+\index{SH@{SH}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{S\+H()}{SH()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf SH} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a318dc7a3f5064dac8e50e5d9fbd5d75f}{}\label{class_k_1_1_s_h_a318dc7a3f5064dac8e50e5d9fbd5d75f}
+
+
+Definition at line 40 of file sh.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{K\+::\+SH@{K\+::\+SH}!changelog@{changelog}}
+\index{changelog@{changelog}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{changelog()}{changelog()}}]{\setlength{\rightskip}{0pt plus 5cm}static string changelog (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}\hypertarget{class_k_1_1_s_h_abb2930f405f8983fca3bab0e1d505a85}{}\label{class_k_1_1_s_h_abb2930f405f8983fca3bab0e1d505a85}
+
+
+Definition at line 82 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!config@{config}}
+\index{config@{config}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{config(string base\+\_\+, string quote\+\_\+, string arg\+Exchange, int arg\+Colors, int arg\+Port, int arg\+Naked)}{config(string base_, string quote_, string argExchange, int argColors, int argPort, int argNaked)}}]{\setlength{\rightskip}{0pt plus 5cm}void config (
+\begin{DoxyParamCaption}
+\item[{string}]{base\+\_\+, }
+\item[{string}]{quote\+\_\+, }
+\item[{string}]{arg\+Exchange, }
+\item[{int}]{arg\+Colors, }
+\item[{int}]{arg\+Port, }
+\item[{int}]{arg\+Naked}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_abacd4501fa9314b249f770765816dce5}{}\label{class_k_1_1_s_h_abacd4501fa9314b249f770765816dce5}
+
+
+Definition at line 50 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!error@{error}}
+\index{error@{error}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{error(string k, string s, bool reboot=false)}{error(string k, string s, bool reboot=false)}}]{\setlength{\rightskip}{0pt plus 5cm}int error (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{string}]{s, }
+\item[{bool}]{reboot = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a4c49d97d050be83fa5908a03c8c47c8a}{}\label{class_k_1_1_s_h_a4c49d97d050be83fa5908a03c8c47c8a}
+
+
+Definition at line 95 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(m\+Trade k, string e)}{log(mTrade k, string e)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Trade}}]{k, }
+\item[{string}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a50fa1ebfccaac1a37b97b499780a4d30}{}\label{class_k_1_1_s_h_a50fa1ebfccaac1a37b97b499780a4d30}
+
+
+Definition at line 238 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(string k, string s, string v)}{log(string k, string s, string v)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{string}]{s, }
+\item[{string}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a05d165fd99c6a9407040879a506bcf94}{}\label{class_k_1_1_s_h_a05d165fd99c6a9407040879a506bcf94}
+
+
+Definition at line 261 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(string k, string s)}{log(string k, string s)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{string}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_ac768cf60d7151187490fb98888116fbf}{}\label{class_k_1_1_s_h_ac768cf60d7151187490fb98888116fbf}
+
+
+Definition at line 282 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(string k, int c=\+C\+O\+L\+O\+R\+\_\+\+W\+H\+I\+T\+E, bool b=false)}{log(string k, int c=COLOR_WHITE, bool b=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{int}]{c = {\ttfamily COLOR\+\_\+WHITE}, }
+\item[{bool}]{b = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a81f63afb8bf5d2129520b9d83a8aae45}{}\label{class_k_1_1_s_h_a81f63afb8bf5d2129520b9d83a8aae45}
+
+
+Definition at line 297 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(const map$<$ m\+Rand\+Id, m\+Order $>$ \&orders, bool working)}{log(const map< mRandId, mOrder > &orders, bool working)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{const map$<$ {\bf m\+Rand\+Id}, {\bf m\+Order} $>$ \&}]{orders, }
+\item[{bool}]{working}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a56dbc67f7f81955c835dee9802bc6d90}{}\label{class_k_1_1_s_h_a56dbc67f7f81955c835dee9802bc6d90}
+
+
+Definition at line 310 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(const m\+Position \&pos)}{log(const mPosition &pos)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{const {\bf m\+Position} \&}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a5be6e66b940b986413db423ab7df1cd2}{}\label{class_k_1_1_s_h_a5be6e66b940b986413db423ab7df1cd2}
+
+
+Definition at line 319 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log@{log}}
+\index{log@{log}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log(double fv)}{log(double fv)}}]{\setlength{\rightskip}{0pt plus 5cm}void log (
+\begin{DoxyParamCaption}
+\item[{double}]{fv}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_ac7b5f65dd2a0c700f7ab8c39ff6c5963}{}\label{class_k_1_1_s_h_ac7b5f65dd2a0c700f7ab8c39ff6c5963}
+
+
+Definition at line 329 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log\+DB@{log\+DB}}
+\index{log\+DB@{log\+DB}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log\+D\+B(string k)}{logDB(string k)}}]{\setlength{\rightskip}{0pt plus 5cm}void log\+DB (
+\begin{DoxyParamCaption}
+\item[{string}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_af67052c37f765ca542764f5fcfdde593}{}\label{class_k_1_1_s_h_af67052c37f765ca542764f5fcfdde593}
+
+
+Definition at line 161 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log\+Err@{log\+Err}}
+\index{log\+Err@{log\+Err}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log\+Err(string k, string s, string m="" Errrror\+: "")}{logErr(string k, string s, string m=" Errrror: ")}}]{\setlength{\rightskip}{0pt plus 5cm}void log\+Err (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{string}]{s, }
+\item[{string}]{m = {\ttfamily \char`\"{}~Errrror\+:~\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a81e184501800070f574e7b688069c3ec}{}\label{class_k_1_1_s_h_a81e184501800070f574e7b688069c3ec}
+
+
+Definition at line 140 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log\+UI@{log\+UI}}
+\index{log\+UI@{log\+UI}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log\+U\+I()}{logUI()}}]{\setlength{\rightskip}{0pt plus 5cm}void log\+UI (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_aca26ec816d45509907350a56b57ea869}{}\label{class_k_1_1_s_h_aca26ec816d45509907350a56b57ea869}
+
+
+Definition at line 181 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log\+U\+Isess@{log\+U\+Isess}}
+\index{log\+U\+Isess@{log\+U\+Isess}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log\+U\+Isess(int k, string s)}{logUIsess(int k, string s)}}]{\setlength{\rightskip}{0pt plus 5cm}void log\+U\+Isess (
+\begin{DoxyParamCaption}
+\item[{int}]{k, }
+\item[{string}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_aeea74b282180b4d73d9855920edecc7f}{}\label{class_k_1_1_s_h_aeea74b282180b4d73d9855920edecc7f}
+
+
+Definition at line 208 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log\+Ver@{log\+Ver}}
+\index{log\+Ver@{log\+Ver}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log\+Ver(string k, int c)}{logVer(string k, int c)}}]{\setlength{\rightskip}{0pt plus 5cm}void log\+Ver (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a09145551996ba5f25fb67280967aef90}{}\label{class_k_1_1_s_h_a09145551996ba5f25fb67280967aef90}
+
+
+Definition at line 235 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!log\+War@{log\+War}}
+\index{log\+War@{log\+War}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{log\+War(string k, string s)}{logWar(string k, string s)}}]{\setlength{\rightskip}{0pt plus 5cm}void log\+War (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{string}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_aa6ff36d9cf9124487791c66fe0f121e7}{}\label{class_k_1_1_s_h_aa6ff36d9cf9124487791c66fe0f121e7}
+
+
+Definition at line 137 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!pressme@{pressme}}
+\index{pressme@{pressme}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{pressme(m\+Hotkey ch, function$<$ void()$>$ $\ast$fn)}{pressme(mHotkey ch, function< void()> *fn)}}]{\setlength{\rightskip}{0pt plus 5cm}void pressme (
+\begin{DoxyParamCaption}
+\item[{{\bf m\+Hotkey}}]{ch, }
+\item[{function$<$ void()$>$ $\ast$}]{fn}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a4c6bd9d7e5cc908ef96085609e455cb1}{}\label{class_k_1_1_s_h_a4c6bd9d7e5cc908ef96085609e455cb1}
+
+
+Definition at line 85 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!quit@{quit}}
+\index{quit@{quit}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{quit()}{quit()}}]{\setlength{\rightskip}{0pt plus 5cm}void quit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a2463a3acef2df4c951ce942a3229e44e}{}\label{class_k_1_1_s_h_a2463a3acef2df4c951ce942a3229e44e}
+
+
+Definition at line 89 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!refresh@{refresh}}
+\index{refresh@{refresh}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{refresh()}{refresh()}}]{\setlength{\rightskip}{0pt plus 5cm}void refresh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a5f2e190b8261a98c97c2ea4e86670d54}{}\label{class_k_1_1_s_h_a5f2e190b8261a98c97c2ea4e86670d54}
+
+
+Definition at line 334 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!stamp@{stamp}}
+\index{stamp@{stamp}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{stamp()}{stamp()}}]{\setlength{\rightskip}{0pt plus 5cm}string stamp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_a9467c6fc12388f8513d2f21f76bb7dc7}{}\label{class_k_1_1_s_h_a9467c6fc12388f8513d2f21f76bb7dc7}
+
+
+Definition at line 112 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!wait\+For\+User@{wait\+For\+User}}
+\index{wait\+For\+User@{wait\+For\+User}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{wait\+For\+User()}{waitForUser()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+For\+User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_s_h_ae8fa6fc69497d85bcf25571f2f80f353}{}\label{class_k_1_1_s_h_ae8fa6fc69497d85bcf25571f2f80f353}
+
+
+Definition at line 101 of file sh.\+h.
+
+
+
+\subsection{Field Documentation}
+\index{K\+::\+SH@{K\+::\+SH}!gw\+Connected@{gw\+Connected}}
+\index{gw\+Connected@{gw\+Connected}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{gw\+Connected}{gwConnected}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Connectivity}$\ast$ gw\+Connected = nullptr}\hypertarget{class_k_1_1_s_h_a572945fdb3d861b6c685f6c5af9f1376}{}\label{class_k_1_1_s_h_a572945fdb3d861b6c685f6c5af9f1376}
+
+
+Definition at line 36 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!gw\+Connected\+Exchange@{gw\+Connected\+Exchange}}
+\index{gw\+Connected\+Exchange@{gw\+Connected\+Exchange}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{gw\+Connected\+Exchange}{gwConnectedExchange}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf m\+Connectivity} $\ast$ gw\+Connected\+Exchange = nullptr}\hypertarget{class_k_1_1_s_h_a6d9ed4a9793ac810eca371568ee912d3}{}\label{class_k_1_1_s_h_a6d9ed4a9793ac810eca371568ee912d3}
+
+
+Definition at line 37 of file sh.\+h.
+
+\index{K\+::\+SH@{K\+::\+SH}!protocol@{protocol}}
+\index{protocol@{protocol}!K\+::\+SH@{K\+::\+SH}}
+\subsubsection[{\texorpdfstring{protocol}{protocol}}]{\setlength{\rightskip}{0pt plus 5cm}string protocol = \char`\"{}H\+T\+TP\char`\"{}}\hypertarget{class_k_1_1_s_h_aeb72b6e20d3a581dcdede91beb824d9f}{}\label{class_k_1_1_s_h_aeb72b6e20d3a581dcdede91beb824d9f}
+
+
+Definition at line 35 of file sh.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{sh_8h}{sh.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,36 @@
+sudo: required
+
+dist: trusty
+
+#osx_image: xcode7.3
+
+os:
+  - linux
+#  - osx
+
+language: node_js
+
+node_js:
+  - node
+
+branches:
+  only: master
+
+before_install:
+  - test $TRAVIS_OS_NAME == "osx" && brew install --with-default-names gnu-sed || :;
+  - test $TRAVIS_OS_NAME == "linux" && make travis-gcc || make travis-dist;
+
+install:
+  - test $TRAVIS_OS_NAME == "linux" && (yes 1 | make install) || :;
+  - test $TRAVIS_OS_NAME == "osx" && (yes 4 | make install) || :;
+  - ./K.sh --version
+
+script:
+  - test $TRAVIS_OS_NAME == "linux" && make test-c || :;
+#   - make test-cov
+
+# after_success: make send-cov
+
+notifications:
+  email:
+    on_success: never

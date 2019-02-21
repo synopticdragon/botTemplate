@@ -1,0 +1,246 @@
+\hypertarget{class_k_1_1_e_v}{}\section{EV Class Reference}
+\label{class_k_1_1_e_v}\index{EV@{EV}}
+
+
+{\ttfamily \#include $<$ev.\+h$>$}
+
+
+
+Inheritance diagram for EV\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=121pt]{class_k_1_1_e_v__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for EV\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_k_1_1_e_v__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_k_1_1_e_v_a60de64d75454385b23995437f1d72669}{start} ()
+\item 
+void \hyperlink{class_k_1_1_e_v_a9b9c0a09ee1c1f71eed99acb7911d9af}{stop} (const function$<$ void()$>$ \&gw\+Cancel\+All)
+\item 
+void \hyperlink{class_k_1_1_e_v_a458bbe4cf81360301586b2e62a7f9dd2}{listen} ()
+\item 
+void \hyperlink{class_k_1_1_e_v_ab2cd59fade125e3516d94a02ce3b8579}{deferred} (const function$<$ void()$>$ \&fn)
+\item 
+void \hyperlink{class_k_1_1_e_v_aded8c7be8e73860a133e2f261c53b071}{async} (const function$<$ bool()$>$ \&fn)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+u\+W\+S\+::\+Group$<$ u\+W\+S\+::\+S\+E\+R\+V\+ER $>$ $\ast$ \hyperlink{class_k_1_1_e_v_a9224c71ab6f6621adf6069f9c9adc751}{ui\+Group} = nullptr
+\item 
+Timer $\ast$ \hyperlink{class_k_1_1_e_v_a3528df0e9a2cf9a83ad1a92b6a79a5d4}{t\+Server} = nullptr
+\item 
+Timer $\ast$ \hyperlink{class_k_1_1_e_v_ae69ff430a805e08decf0feee8938b9b7}{t\+Client} = nullptr
+\item 
+function$<$ void(string)$>$ \hyperlink{class_k_1_1_e_v_ab04bc4fb6f845a182c6ee0a32c67550c}{debug}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_k_1_1_e_v_a78f61ac2dd03bcba8e09ca20cd7d68e3}{load} ()
+\item 
+void \hyperlink{class_k_1_1_e_v_aa9a0f090ee360e2a9f967200d30f4a22}{wait\+Data} ()
+\item 
+void \hyperlink{class_k_1_1_e_v_ade4c89163dbda531e71c8c75eb2868b4}{wait\+Time} ()
+\item 
+void \hyperlink{class_k_1_1_e_v_aa3f7b56799f5915cfbc902f6426c2bb2}{wait\+User} ()
+\item 
+void \hyperlink{class_k_1_1_e_v_a13a43e6d814de94978c515cb084873b1}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file ev.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{K\+::\+EV@{K\+::\+EV}!async@{async}}
+\index{async@{async}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{async(const function$<$ bool()$>$ \&fn)}{async(const function< bool()> &fn)}}]{\setlength{\rightskip}{0pt plus 5cm}void async (
+\begin{DoxyParamCaption}
+\item[{const function$<$ bool()$>$ \&}]{fn}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_e_v_aded8c7be8e73860a133e2f261c53b071}{}\label{class_k_1_1_e_v_aded8c7be8e73860a133e2f261c53b071}
+
+
+Definition at line 81 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!deferred@{deferred}}
+\index{deferred@{deferred}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{deferred(const function$<$ void()$>$ \&fn)}{deferred(const function< void()> &fn)}}]{\setlength{\rightskip}{0pt plus 5cm}void deferred (
+\begin{DoxyParamCaption}
+\item[{const function$<$ void()$>$ \&}]{fn}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_e_v_ab2cd59fade125e3516d94a02ce3b8579}{}\label{class_k_1_1_e_v_ab2cd59fade125e3516d94a02ce3b8579}
+
+
+Definition at line 77 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!listen@{listen}}
+\index{listen@{listen}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{listen()}{listen()}}]{\setlength{\rightskip}{0pt plus 5cm}void listen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_e_v_a458bbe4cf81360301586b2e62a7f9dd2}{}\label{class_k_1_1_e_v_a458bbe4cf81360301586b2e62a7f9dd2}
+
+
+Definition at line 65 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!load@{load}}
+\index{load@{load}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{load()}{load()}}]{\setlength{\rightskip}{0pt plus 5cm}void load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_e_v_a78f61ac2dd03bcba8e09ca20cd7d68e3}{}\label{class_k_1_1_e_v_a78f61ac2dd03bcba8e09ca20cd7d68e3}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a5588964fff1d1025245d134e159b60ee}{Klass}.
+
+
+
+Definition at line 18 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!run@{run}}
+\index{run@{run}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{run()}{run()}}]{\setlength{\rightskip}{0pt plus 5cm}void run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_e_v_a13a43e6d814de94978c515cb084873b1}{}\label{class_k_1_1_e_v_a13a43e6d814de94978c515cb084873b1}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a72fcb26a14f6beb1c3fbace9ab3e7dbb}{Klass}.
+
+
+
+Definition at line 47 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!start@{start}}
+\index{start@{start}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{start()}{start()}}]{\setlength{\rightskip}{0pt plus 5cm}void start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_e_v_a60de64d75454385b23995437f1d72669}{}\label{class_k_1_1_e_v_a60de64d75454385b23995437f1d72669}
+
+
+Definition at line 52 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!stop@{stop}}
+\index{stop@{stop}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{stop(const function$<$ void()$>$ \&gw\+Cancel\+All)}{stop(const function< void()> &gwCancelAll)}}]{\setlength{\rightskip}{0pt plus 5cm}void stop (
+\begin{DoxyParamCaption}
+\item[{const function$<$ void()$>$ \&}]{gw\+Cancel\+All}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_k_1_1_e_v_a9b9c0a09ee1c1f71eed99acb7911d9af}{}\label{class_k_1_1_e_v_a9b9c0a09ee1c1f71eed99acb7911d9af}
+
+
+Definition at line 56 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!wait\+Data@{wait\+Data}}
+\index{wait\+Data@{wait\+Data}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{wait\+Data()}{waitData()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_e_v_aa9a0f090ee360e2a9f967200d30f4a22}{}\label{class_k_1_1_e_v_aa9a0f090ee360e2a9f967200d30f4a22}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a62a6bf36d7c8bec9dcf7af20c9d21d74}{Klass}.
+
+
+
+Definition at line 31 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!wait\+Time@{wait\+Time}}
+\index{wait\+Time@{wait\+Time}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{wait\+Time()}{waitTime()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_e_v_ade4c89163dbda531e71c8c75eb2868b4}{}\label{class_k_1_1_e_v_ade4c89163dbda531e71c8c75eb2868b4}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_a60afdc2eaa268d8c41a2d6897fbf4fff}{Klass}.
+
+
+
+Definition at line 40 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!wait\+User@{wait\+User}}
+\index{wait\+User@{wait\+User}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{wait\+User()}{waitUser()}}]{\setlength{\rightskip}{0pt plus 5cm}void wait\+User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_k_1_1_e_v_aa3f7b56799f5915cfbc902f6426c2bb2}{}\label{class_k_1_1_e_v_aa3f7b56799f5915cfbc902f6426c2bb2}
+
+
+Reimplemented from \hyperlink{class_k_1_1_klass_af4f5201bed25a292d8a7f40470d83923}{Klass}.
+
+
+
+Definition at line 44 of file ev.\+h.
+
+
+
+\subsection{Field Documentation}
+\index{K\+::\+EV@{K\+::\+EV}!debug@{debug}}
+\index{debug@{debug}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{debug}{debug}}]{\setlength{\rightskip}{0pt plus 5cm}function$<$void(string)$>$ debug}\hypertarget{class_k_1_1_e_v_ab04bc4fb6f845a182c6ee0a32c67550c}{}\label{class_k_1_1_e_v_ab04bc4fb6f845a182c6ee0a32c67550c}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [&](\textcolor{keyword}{const} \textcolor{keywordtype}{string} k) \{
+        ((SH*)\hyperlink{class_k_1_1_klass_a5819639653d62dde47c40c9d0c06f7ac}{screen})->log(\textcolor{stringliteral}{"DEBUG"}, \textcolor{keywordtype}{string}(\textcolor{stringliteral}{"EV "}) + k);
+      \}
+\end{DoxyCode}
+
+
+Definition at line 84 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!t\+Client@{t\+Client}}
+\index{t\+Client@{t\+Client}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{t\+Client}{tClient}}]{\setlength{\rightskip}{0pt plus 5cm}Timer $\ast$ t\+Client = nullptr}\hypertarget{class_k_1_1_e_v_ae69ff430a805e08decf0feee8938b9b7}{}\label{class_k_1_1_e_v_ae69ff430a805e08decf0feee8938b9b7}
+
+
+Definition at line 16 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!t\+Server@{t\+Server}}
+\index{t\+Server@{t\+Server}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{t\+Server}{tServer}}]{\setlength{\rightskip}{0pt plus 5cm}Timer$\ast$ t\+Server = nullptr}\hypertarget{class_k_1_1_e_v_a3528df0e9a2cf9a83ad1a92b6a79a5d4}{}\label{class_k_1_1_e_v_a3528df0e9a2cf9a83ad1a92b6a79a5d4}
+
+
+Definition at line 15 of file ev.\+h.
+
+\index{K\+::\+EV@{K\+::\+EV}!ui\+Group@{ui\+Group}}
+\index{ui\+Group@{ui\+Group}!K\+::\+EV@{K\+::\+EV}}
+\subsubsection[{\texorpdfstring{ui\+Group}{uiGroup}}]{\setlength{\rightskip}{0pt plus 5cm}u\+W\+S\+::\+Group$<$u\+W\+S\+::\+S\+E\+R\+V\+ER$>$$\ast$ ui\+Group = nullptr}\hypertarget{class_k_1_1_e_v_a9224c71ab6f6621adf6069f9c9adc751}{}\label{class_k_1_1_e_v_a9224c71ab6f6621adf6069f9c9adc751}
+
+
+Definition at line 14 of file ev.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ev_8h}{ev.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['send',['send',['../class_k_1_1_gw.html#aaa3aac9b11f8b2d0fd549f88c049e7bb',1,'K::Gw']]],
+  ['sendorder',['sendOrder',['../class_k_1_1_o_g.html#a1abe610a042782fc064f909adf519013',1,'K::OG']]],
+  ['sh',['SH',['../class_k_1_1_s_h.html#a318dc7a3f5064dac8e50e5d9fbd5d75f',1,'K::SH']]],
+  ['shlink',['shLink',['../class_k_1_1_klass.html#a39b2f3998c689b256683fd17a651064b',1,'K::Klass']]],
+  ['spread',['spread',['../struct_k_1_1m_levels.html#a602a1ff7530a970b9f77f20df20d7b8c',1,'K::mLevels']]],
+  ['stamp',['stamp',['../class_k_1_1_s_h.html#a9467c6fc12388f8513d2f21f76bb7dc7',1,'K::SH']]],
+  ['start',['start',['../class_k_1_1_e_v.html#a60de64d75454385b23995437f1d72669',1,'K::EV']]],
+  ['stop',['stop',['../class_k_1_1_e_v.html#a9b9c0a09ee1c1f71eed99acb7911d9af',1,'K::EV']]],
+  ['str8',['str8',['../class_k_1_1_f_n.html#ae63dba2964cf9ff6d985f498dd9d0e57',1,'K::FN']]],
+  ['strl',['strL',['../class_k_1_1_f_n.html#a460668948200f2d6f51f78ea5673c3c9',1,'K::FN']]],
+  ['stru',['strU',['../class_k_1_1_f_n.html#a7f5fedf629fc35cbc6e06fa8a82827f2',1,'K::FN']]],
+  ['strx',['strX',['../class_k_1_1_f_n.html#a1b6d5774c1eeed7eff76ede3a7bbd13a',1,'K::FN']]],
+  ['sync_5fcancelall',['sync_cancelAll',['../class_k_1_1_gw.html#aae707e552babec2a6f663f1c79745206',1,'K::Gw']]],
+  ['sync_5flevels',['sync_levels',['../class_k_1_1_gw.html#ac20ee1cedc4725a39815f28d36470fa1',1,'K::Gw']]],
+  ['sync_5forders',['sync_orders',['../class_k_1_1_gw.html#a96bb7b05334000c911a75894711853c4',1,'K::Gw']]],
+  ['sync_5ftrades',['sync_trades',['../class_k_1_1_gw.html#a41fa6e2cd171072202fa1e44fbd780c5',1,'K::Gw']]],
+  ['sync_5fwallet',['sync_wallet',['../class_k_1_1_gw.html#a45b0afcbe68c422db35af9b503831be5',1,'K::Gw']]]
+];
